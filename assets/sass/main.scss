@@ -922,7 +922,7 @@
 
     #banner {
         background-image: url(
-            {{ ( index ( index .Site.Data .Site.Language.Lang | default .Site.Data ) "homepage" "banner" "image" | default "images/banner.jpg" ) }}
+            {{ ( index ( index .Site.Data .Site.Language.Lang | default .Site.Data ) "homepage" "banner" "image" | default "images/banner_yellow.jpg" ) }}
         );
         background-position: center center;
         background-size: cover;
@@ -946,7 +946,7 @@
                 vertical-align: middle;
 
                 em {
-                    opacity: 0.75;
+                    opacity: 0.55;
                 }
 
                 a {

@@ -1,16 +1,16 @@
 banner:
   enable: true
-  image: "images/banner.jpg"
-  contents: "**Arcana:** _A responsive site template freebie by [HTML5 UP](https://html5up.net/)_"
+  image: "images/banner_yellow.jpg"
+  contents: "**Foglalkoztatasok:** _Gyertek ismerkedjetek meg [modszereinkkel](https://html5up.net/)_"
   button:
-    contents: "Learn More"
+    contents: "Tudj meg tobbet"
     url: "#"
 items:
   - type: highlights
     items_per_row: 3
     items:
-    - title: This Is Important
-      icon: fa-paper-plane
+    - title: Egeszseg
+      icon: fa-heart
       content: >
         Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl
         amet mattis, sed a rutrum accumsan sed. Suspendisse eu.
