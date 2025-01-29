@@ -1,6 +1,6 @@
 ---
-title: "Kik Vagyunk"
-description: "Sidebar on the left, content on the right."
+title: "Mit Csinalunk"
+description: "Mi is zajlik a climbeeban"
 menu: main
 weight: 50
 #image: images/banner_yellow.jpg
@@ -9,14 +9,12 @@ tags: ["examples", "content", "sidebar"]
 sidebar_left: sidebar1
 ---
 
+Talan a legjobb, ha egy kis videon keresztul mutatjuk be mirol is van szo.
+
 {{< youtube o985s0TUP-s >}}
 
-Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
-Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
-Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
-consequat etiam lorem ipsum dolor sit amet nullam.
-
 ### And Yet Another Subheading
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus
 justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,
 ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet
