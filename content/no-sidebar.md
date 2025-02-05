@@ -1,14 +1,12 @@
 ---
 title: "A Csapat"
-description: "Ez a kis fejlesztoi csapatunk."
+description: "Gyertek es ismerjetek meg a csapatunk tagjait :)"
 menu: main
 weight: 80
 image: images/banner_yellow.jpg
 image_alt: "Hello!"
 tags: ["examples", "content"]
 ---
-Ismerkedj meg a csapatunk tagjaival
 
-### Vegso Sara - Logopedus
+## Haho
 
-Siasztok! Vegso Sara vagyok

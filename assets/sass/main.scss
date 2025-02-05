@@ -410,7 +410,9 @@
 
             img {
                 display: block;
-                width: 100%;
+                width: 75%;
+                clip-path: circle();
+                border-radius: 50%; 
             }
         }
 
@@ -1656,6 +1658,7 @@
 
                     .image {
                         width: 30%;
+
                     }
                 }
             }

@@ -2,14 +2,12 @@
 title: "Mit Csinalunk"
 description: "Mi is zajlik a climbeeban"
 menu: main
-weight: 50
+weight: 30
 #image: images/banner_yellow.jpg
 #image_alt: "Hello!"
 tags: ["examples", "content", "sidebar"]
 sidebar_left: sidebar1
 ---
-
-Talan a legjobb, ha egy kis videon keresztul mutatjuk be mirol is van szo.
 
 {{< youtube o985s0TUP-s >}}
 
