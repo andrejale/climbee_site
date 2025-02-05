@@ -4,6 +4,9 @@ other = "Name"
 [contact_email]
 other = "Email"
 
+[contact_therapy]
+other = "Therapy"
+
 [contact_message]
 other = "Message"
 

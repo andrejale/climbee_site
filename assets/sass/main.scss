@@ -342,6 +342,19 @@
             border-color: _palette(accent, bg);
         }
     }
+    
+    select {
+        @include vendor('appearance', 'none');
+        @include vendor('transition', 'border-color 0.2s ease-in-out');
+        border: solid 1px _palette(border);
+        background: #fff;
+        height:32px;
+        padding: 0.75em;
+        border:1px solid #d8d8d8;
+        width: 100%;
+        outline: 0;
+        -webkit-appearance: none;
+    }
 
     input[type="text"],
     input[type="password"],
