@@ -1,6 +1,6 @@
 ---
-title: "Two Sidebar"
-description: "Yup. Two sidebars at the same time."
+title: "Foglalkozasok"
+description: "Egyebb foglalkozasok amik zajlanak nalunk."
 menu: main
 weight: 70
 image: images/banner.jpg

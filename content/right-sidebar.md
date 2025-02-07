@@ -1,6 +1,6 @@
 ---
-title: "Right Sidebar"
-description: "Sidebar on the right, content on the left."
+title: "Blog"
+description: "Itt talalhattok sok jo kis infot arrol hogy jelenleg mit is csinlaunk."
 menu: main
 weight: 60
 image: images/banner.jpg
