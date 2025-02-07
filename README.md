@@ -41,3 +41,6 @@ things I've done sub-optimally.
 ## Thanks
 I borrowed a good amount of structure and useful bits from
 [hugo-html5up-alpha](https://github.com/dewittn/hugo-html5up-alpha)
+
+
+https://hugocodex.org/add-ons/slider-carousel/

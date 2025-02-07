@@ -7,5 +7,6 @@ draft: true
 ---
 # Logopedia
 Siasztok! Vegso Sara vagyok, mar 8 eve nyelvlokeses nyelessel foglalkozom, es imadok mindenfele kreativ jatekot kitalalni a gyerkocoknek, hogy megkonnyitsem a beszedinditasukat.
+<!-- more -->
 A nyelvlokeses nyeles, beszedinditas, es meg sok minden mas. Altalaban 3 eves kortol foglalkozom gyerkocokkel, de nincsenek szigo
 Megbeszeles alapjan, igyekszem barkinek segiteni
