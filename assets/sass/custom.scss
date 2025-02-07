@@ -82,7 +82,8 @@
       border-radius: 4px;
       margin-top: 10px;
      }
-.carousel ol {position: absolute;
+.carousel ol {
+    position: absolute;
       bottom: 15px;
       display: flex;
       justify-content: center;
@@ -115,9 +116,10 @@
     transform: translateY(-50%);
     z-index: 9;
   }
-.carousel .next {left: auto;
-      right: 0;
-     }
+.carousel .next {
+  left: auto;
+  right: 0;
+}
 
 /* RESPONSIVE CSS */
 @media only screen and (max-width: 600px) {

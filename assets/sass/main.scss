@@ -1381,7 +1381,7 @@
                 top: 0;
                 width: 100%;
                 z-index: _misc(z-index-base) + 1;
-                background-color: _palette(obscure, bg);
+                background-color: _palette(light, bg);
                 @include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3))', 'url("images/bg01.png")'));
                 height: 44px;
                 line-height: 44px;
