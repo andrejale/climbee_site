@@ -3,7 +3,6 @@ title: "Levai Janka"
 date: 2025-02-05T18:54:17+01:00
 image: images/therapists/Janka.jpg
 weight: 20
-draft: true
 tags: ["pscychology", "content", "sidebar"]
 ---
 # Pszichologia

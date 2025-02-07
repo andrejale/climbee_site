@@ -3,7 +3,6 @@ title: "Kinga Szabados"
 date: 2025-02-05T18:54:17+01:00
 image: images/therapists/Kinga.png
 weight: 30
-draft: true
 tags: ["", "content", "sidebar"]
 ---
 # Gyogtornasz
