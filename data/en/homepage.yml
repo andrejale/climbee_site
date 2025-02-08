@@ -1,6 +1,6 @@
 banner:
   enable: true
-  image: "images/banner_yellow.jpg"
+  image: "images/banner_quote.jpg"
   contents: "**Foglalkoztatasok:** _Gyertek ismerkedjetek meg [modszereinkkel](https://html5up.net/)_"
   button:
     contents: "Tudj meg tobbet"

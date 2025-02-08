@@ -56,7 +56,7 @@
   width: 100%;
   min-width: 100%; 
   list-style: none; 
-  background: url("./images/banner_yellow.jpg")  center center / cover no-repeat; 
+  background: url("./images/carousel/photo01.jpg")  center center / cover no-repeat; 
   scroll-snap-align: start;
   display: flex;
   justify-content: center;
@@ -128,13 +128,13 @@
 
 /* DEMO CSS */
 .carousel ul li:nth-child(2) {
-  background-image: url("./images/banner_yellow.jpg") 
+  background-image: url("./images/carousel/photo02.jpg") 
 }
 .carousel ul li:nth-child(3) {
-  background-image: url(https://images.pexels.com/photos/4492170/pexels-photo-4492170.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1500);
+  background-image: url("./images/carousel/photo03.jpg");
 }
 .carousel ul li:nth-child(4) {
-  background-image: url(https://images.pexels.com/photos/2558605/pexels-photo-2558605.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1500);
+  background-image: url("./images/carousel/photo04.jpg");
 }
 
 // p, h2 {margin: 15px auto; padding: 0 15px; max-width: 800px;}
