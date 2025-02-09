@@ -1,5 +1,5 @@
 ---
-title: "Mit csinálunk :heart:"
+title: "Mit csinálunk"
 description: "Had mutassuk be a fejlesztőközpontunkat. egy holisztikus menedékhely a gyermekfejlesztés számára"
 menu: main
 weight: 30
@@ -8,11 +8,8 @@ sidebar_left: sidebar1
 
 {{< youtube o985s0TUP-s >}}
 
+---
 
+A ClimBee célja, hogy a gyermekeket teljes egészében – szellemileg, testileg és érzelmileg – támogassa. Szakterületeink közé tartozik a gyógypedagógia, a logopédia, a mozgásfejlesztés, a gyógytorna és a pszichológiai támogatás. Ezek segítségével személyre szabott fejlesztést biztosítunk, hogy a gyerekek leküzdhessék a nehézségeiket és kibontakoztathassák a bennük rejlő lehetőségeket.
 
-A ClimBee elhivatottsága, hogy a gyermeket egészében—szellemileg, testileg és érzelmileg—támogassa. Montessori filozófiából inspirálódva, fejlesztőközpontunk egy nyugodt, gyermekközpontú környezet, ahol a fiatal tanulók szárnyalhatnak. Szakterületeink közé tartozik a logopédia, fizioterápia és pszichológia, amelyekkel személyre szabott támogatást nyújtunk a gyermekeknek, hogy leküzdhessék kihívásaikat és kiaknázhassák teljes potenciáljukat.  
-
-A mai gyors ütemű, túlstimulált világban egyre nagyobb szükség van egy nyugodt, kiegyensúlyozott környezetre, amely elősegíti a koncentrációt, az ellenállóképességet és az érzelmi jóllétet. Gondosan összeállított fizikai gyakorlatokkal célunk, hogy a gyermekekben kialakítsuk a fókuszálás és fegyelmezettség képességét, ezzel megalapozva jövőbeli tanulmányi sikereiket. Megközelítésünk kiemelt figyelmet fordít a modernkori ingerek csökkentésére is, hogy enyhítsük a szorongást, OCD-t és más érzelmi kihívásokat, amelyekkel a gyermekek szembesülhetnek.  
-
-A ClimBee elkötelezett abban, hogy minden gyermeket egyedi útján támogassuk, és segítsük, hogy magabiztos, képes és együttérző egyénekké váljanak. Csatlakozzon hozzánk, ahogy újragondoljuk a gyermekfejlesztést, lépésről lépésre.  
-
+A mai gyors ütemű, túlstimulált világban egyre nagyobb szükség van egy nyugodt, kiegyensúlyozott környezetre, amely elősegíti a koncentrációt, az ellenállóképességet és az érzelmi jóllétet.Gondosan összeállított terápiás foglalkozásaink célja, hogy a gyermekek egyéni szükségleteihez igazodva támogassuk fejlődésüket. Segítjük a kognitív, motoros és szociális készségek fejlesztését,a kommunikációt, az önszabályozás és az érzelmi stabilitás erősítését, valamint a tanulási és beilleszkedési nehézségek leküzdését. Megközelítésünk nagy hangsúlyt fektet a biztonságos, támogató környezet megteremtésére, ,hogy enyhítsük a szorongást és más érzelmi kihívásokat, amelyek a gyermekek fejlődését befolyásolhatják.

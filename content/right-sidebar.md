@@ -4,7 +4,7 @@ description: "Itt talalhattok sok jo kis infot arrol hogy jelenleg mit is csinla
 menu: main
 weight: 60
 image: images/banner.jpg
-image_alt: "Hello!"
+# image_alt: "Hello!"
 tags: ["examples", "content", "sidebar"]
 sidebar_right: sidebar1
 ---
