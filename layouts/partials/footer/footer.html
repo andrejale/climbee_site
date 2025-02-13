@@ -15,6 +15,8 @@
                             {{- end -}}
                         {{- end }}
                     </ul>
+                    <h3> {{ .footer }} </h3>
+                    {{- partial "footer/mapouter.html" .Site.Params.footer.map }}
                 </section>
                 {{- end }}
             {{ end }}
@@ -24,6 +26,7 @@
             {{- end }}
         </div>
     </div>
+
 
     <ul class="icons">
     {{- range .Site.Params.social }}
