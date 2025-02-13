@@ -17,11 +17,11 @@ copyright = "© Untitled. All rights reserved"
     [[params.social]]
         title = "Instagram"
         icon = "fa-instagram"
-        url = "#"
+        url = "https://www.instagram.com/climbeee"
     [[params.social]]
         title = "Facebook"
         icon = "fa-facebook-f"
-        url = "#"
+        url = "https://www.facebook.com/climbeee"
     [[params.social]]
         title = "Youtube"
         icon = "fa-youtube"
