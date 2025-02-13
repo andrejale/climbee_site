@@ -1,5 +1,5 @@
 [contact_name]
-other = "Name"
+other = "Név"
 
 [contact_email]
 other = "Email"
@@ -8,10 +8,10 @@ other = "Email"
 other = "Therapy"
 
 [contact_message]
-other = "Message"
+other = "Üzenet"
 
 [contact_submit]
-other = "Send Message"
+other = "Küldés"
 
 [language_select]
 other = "Select language"
