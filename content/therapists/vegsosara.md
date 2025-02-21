@@ -1,7 +1,7 @@
 ---
-title: "Vegso Sara"
+title: "Vegső Sára"
 date: 2025-02-05T10:18:21+01:00
-image: images/therapists/Sari.png
+image: images/therapists/Sari.jpg
 weight: 10
 ---
 # Logopedia
