@@ -4,6 +4,11 @@ title = "ClimBee Fejlesztő Központ"
 
 copyright = "© Untitled. All rights reserved"
 
+[deployment]
+  [[deployment.targets]]
+    name = 'production'
+    url = 's3://climbee.fun?region=eu-north-1'
+
 [taxonomies]
     tag = "tags"
 
