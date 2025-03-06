@@ -1,10 +1,22 @@
-baseURL = "https://climbee.fun/"
-languageCode = "en-us"
+baseURL = "http://climbee.fun/"
+languageCode = "hu"
 title = "ClimBee Fejlesztő Központ"
 
 copyright = "© Untitled. All rights reserved"
 
+[HTTPCache]
+  [HTTPCache.cache]
+    [HTTPCache.cache.for]
+      excludes = ['**']
+      includes = []
+
 [deployment]
+  confirm = false
+  dryRun = false
+  force = false
+  invalidateCDN = true
+  maxDeletes = 256
+  workers = 10
   [[deployment.targets]]
     name = 'production'
     url = 's3://climbee.fun?region=eu-north-1'
