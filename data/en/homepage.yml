@@ -1,7 +1,7 @@
 banner:
   enable: true
   image: "images/banner_quote.jpg"
-  contents: "**Foglalkoztatasok:** _Gyertek ismerkedjetek meg [modszereinkkel](https://html5up.net/)_"
+  contents: "**Foglalkoztatások:** _Gyertek ismerkedjetek meg a [modszereinkkel](https://html5up.net/)_"
   button:
     contents: "Tudj meg tobbet"
     url: "#"
@@ -12,7 +12,7 @@ items:
     - title: Egeszseg
       icon: fa-heart
       content: >
-        Mozgason keresztuli tanulas mind lelki, mind eszmei egeszseget taplal
+        Mozgáson keresztüli tanulás mind lelki, mind eszmei egészseget táplal
     - title: Inger Minimalizalas
       icon: fa-cat
       content: >
