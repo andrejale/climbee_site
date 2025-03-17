@@ -1,5 +1,6 @@
-baseURL = "http://climbee.fun/"
-languageCode = "hu"
+baseURL = ""
+relativeURLs = "True"
+languageCode = "en"
 title = "ClimBee Fejlesztő Központ"
 
 copyright = "© Untitled. All rights reserved"
@@ -16,6 +17,7 @@ copyright = "© Untitled. All rights reserved"
   force = false
   invalidateCDN = true
   maxDeletes = 256
+  target = ''
   workers = 10
   [[deployment.targets]]
     name = 'production'
