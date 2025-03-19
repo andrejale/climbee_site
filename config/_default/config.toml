@@ -23,6 +23,18 @@ copyright = "© Untitled. All rights reserved"
     name = 'production'
     url = 's3://climbee.fun?region=eu-north-1'
 
+#  Compress and cache static assets for 1 week.
+[[deployment.matchers]]
+pattern = "^.+\\.(css|eot|html|ico|js|json|otf|svg|ttf|xml)$"
+cacheControl = "max-age=604800, no-transform, public"
+gzip = true
+
+#  Cache static assets for 1 week, compression not required.
+[[deployment.matchers]]
+pattern = "^.+\\.(gif|jpg|jpeg|png|woff|woff2)$"
+cacheControl = "max-age=604800, no-transform, public"
+gzip = false
+
 [taxonomies]
     tag = "tags"
 
