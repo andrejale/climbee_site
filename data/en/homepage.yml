@@ -1,35 +1,35 @@
 banner:
   enable: true
   image: "images/banner_quote.jpg"
-  contents: "**Foglalkoztatások:** _Gyertek és ismerkedjetek meg a [módszereinkkel](https://html5up.net/)_"
+  contents: "**Milyen foglalkozásokat tartunk?**"
   button:
-    contents: "Tudj meg többet"
+    contents: "Tudj meg többet :)"
     url: "#"
 items:
   - type: highlights
     items_per_row: 3
     items:
-    - title: Egészség
+    - title: Korai Támogatás 
       icon: fa-heart
       content: >
-        Mozgáson keresztüli tanulás mind lelki, mind eszmei egészseget táplal
-    - title: Inger Minimalizalas
+        Ez első években a legfogékonyabb az idegrendszer a tanulásra és fejlődésre. Időben megkezdve a megfelelő fejlesztést, játékosan és örömmel erősíthetjük meg azt, amiben igazán jó lehet.
+    - title: Képzett Szakemberek
       icon: fa-cat
       content: >
-        Arra torekszunk, hogy a mai vilagban levo ingereketol minel jobban megovjuk a gyerkocoket
-    - title: Jövőre való felkészülés
+        Csapatunk magas szintű képzettséggel, tapasztalattal rendelkezik. A gyerekekkel való munka naprakész tudáson alapuljon, ezért folyamatosan képezzük magunkat.
+    - title: Letisztúlt Környezet
       icon: fa-seedling
       content: >
-        A gyerekek oszpontositasanak fejlesztese erosen elosegiti a jovobeli tanulmanyaik eredmenyet. 
+        Nyugodt, letisztult tér fogadja a gyerekeket, ahol kevesebb a zavaró inger, mint a mindennapi környezetükben. Ez segít abban, hogy könnyebben tudjanak figyelni, kapcsolódni önmagukhoz és társaikhoz is.
   - type: heading
-    heading: Mindenkeppen felfele haladunk
-    contents: Mind bevalt, mind innovativ technikakat alkalmazva dolgozunk
+    heading: Célunk
+    contents: Hogy a gyereket előkészítsük hogy könnyebben vegyék majd az elöttuk allo kihívásokat, ügyesebben kapcsolódjanak a társaihoz, és magabiztosabban fedezzek fel a világot. Mind bevalt, mind innovativ technikakat alkalmazva dolgozunk
   - type: posts
     #heading: Recent Posts
     content_type: posts
     max: 4
   - type: cta
-    contents: Gyere, es kukkantsd meg, hogy hogyan is nez ki a climbee
+    contents: Gyere, es kukkants be hozzán, hogy ez hogy is néz ki élőben.
     button:
-      contents: Video
+      contents: Videó Megtekintése
       url: "#"
