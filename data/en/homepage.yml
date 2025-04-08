@@ -1,9 +1,9 @@
 banner:
   enable: true
   image: "images/banner_quote.jpg"
-  contents: "**Milyen foglalkozásokat tartunk?**"
+  contents: "[**Tudj meg többet a foglalkozásainkról**](mit-csinalunk) vagy "
   button:
-    contents: "Tudj meg többet :)"
+    contents: "Kérj időpontot"
     url: "#"
 items:
   - type: highlights
@@ -29,7 +29,7 @@ items:
     content_type: posts
     max: 4
   - type: cta
-    contents: Gyere, es kukkants be hozzán, hogy ez hogy is néz ki élőben.
+    contents: Gyere, és kukkants be hozzán, hogy ez hogy is néz ki élőben.
     button:
       contents: Videó Megtekintése
       url: "#"

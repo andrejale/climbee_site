@@ -1,7 +1,7 @@
-baseURL = ""
+baseURL = "https://www.climbee.fun/"
 relativeURLs = "True"
 languageCode = "en"
-title = "ClimBee Fejlesztő Központ"
+title = "ClimBee Képességfejlesztő Ház"
 
 copyright = "© Untitled. All rights reserved"
 
@@ -39,7 +39,7 @@ gzip = false
     tag = "tags"
 
 [params]
-    description = "A business/corporate style responsive site template."
+    description = "Belvárosi képességfejlesztő ház honlaplja."
     images = ['images/metaimage.jpg']
     show_post_dates = false
     enableSourceMaps = true
@@ -71,16 +71,10 @@ gzip = false
             title = "Tapasztalatok"
             url = "#"
         [[params.footer.links.links]]
-            title = "Engedelyek"
+            title = "Engedélyek"
             url = "#"
         [[params.footer.links.links]]
-            title = ""
-            url = "#"
-        [[params.footer.links.links]]
-            title = "Rutrum accumsan dolor"
-            url = "#"
-        [[params.footer.links.links]]
-            title = "Mattis rutrum accumsan"
+            title = "Galéria"
             url = "#"
 
     [params.footer.contact_form]
@@ -90,4 +84,4 @@ gzip = false
     
     [params.footer.map]
         enabled = true
-        header = "Hol vagyunk"
+        header = "Hól vagyunk"
