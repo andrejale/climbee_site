@@ -22,3 +22,5 @@ A beszédészlelés és beszédértés terápia a hallott beszéd megértésére
 #### Nyelvlökéses nyelés terápia:
 A nyelvlökéses nyelés egy olyan rendellenesség, amikor a nyelv nyelés közben tolja a fogakat. Ez a helytelen nyelési technika hosszú távon problémákat okozhat, például fogazati rendellenességeket, kiejtési zavarokat és beszédhibák kialakulását is előidézheti.
 A nyelvlökéses nyelés hátterében valamilyen rossz szokás áll/állhat pl. ujjszopás, cumizás. A terápia során a logopédus segít a helyes nyelési technika elsajátításában, és a nyelv megfelelő irányú mozgásának kialakításában.
+
+[Végső Sára](../../therapists/vegsosara), logopédusunk tudd tovább informácíót mondani, illetve konzultácíós időpontot lehet nála kérni.

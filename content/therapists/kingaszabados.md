@@ -1,16 +1,12 @@
 ---
-title: "Kinga Szabados"
+title: "Szabados Kinga"
 date: 2025-02-05T18:54:17+01:00
 image: images/therapists/Kinga.png
-weight: 30
+weight: 20
 tags: ["", "content", "sidebar"]
 ---
-# Gyogtornasz
-Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
-Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
-Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
-consequat etiam lorem ipsum dolor sit amet nullam.
+# Gyógtorna / Mozgásfejlesztés
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus
-justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,
-ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet
+Szegedi Tudományegyetemen végeztem Gyógytornász BSc képzést. Az egyetem után egy alapítványnál dolgoztam Szegeden, házi betegellátásban. Később a Kiskunfélegyházi Kórház Mozgásszervi rehabilitációs osztályán helyezkedtem el. Az osztályon kívül egyéni, csoportos és vizitornát is tartottam, valamint számos kórkép fizioterápiájával ismerkedtem meg. A gyermekekkel való foglalkozás régi álmom volt, ezért nagy öröm számomra ezt a módszert alkalmazni. Szerencsésnek tartom magam, hogy a Tunyogi Gyógyító Játékterápiát Tunyogi Erzsébettől tanulhattam. A módszer segítségével játékosan motiválva nagy fejlődést érhetünk el a gyermekeknél. Célom, hogy a szülő és a gyermek megtanuljon együtt játszani, ezzel elérve a kívánt fejlődést. Fontosnak tartom, hogy a gyermeket és a szülőt a családi egység részeként tekintsük, és ne csak a gyermek aktuális nehézségeire fókuszáljunk.
+
+- :email: climbeebp@gmail.com

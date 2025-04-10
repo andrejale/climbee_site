@@ -20,23 +20,20 @@ A mászófal integrálásával a fejlesztőközpontunk dinamikus, vonzó eszköz
 
 ### 1. **Fizikai gyakorlat és koncentráció**  
 
-A gyakorlati, céltudatos tevékenység elősegíti a koncentrációt.
-
-   - **Mászófal alkalmazása:** A mászás teljes testi részvételt, koordinációt és problémamegoldást igényel. Ahogy a gyermekek tervezik az útvonalukat és végrehajtják a mozdulataikat, intenzíven fókuszálniuk kell testtartásukra, fogásaikra és a következő lépéseikre. Ez az immerzív tevékenység természetesen fejleszti a figyelmi képességeke.
-
-   - **Terápiás előny:** A mászófalon végzett mozgásos gyakorlatok célzottan fejleszthetik a motoros készségeket, az egyensúlyt és az erőnlétet, miközben mentális fókuszt igényelnek. Például egy adott fogás megragadása vagy egy kihívásos szakaszon való egyensúlyozás hosszan tartó figyelmet követel.
+A gyakorlati, céltudatos tevékenység elősegíti a koncentrációt. Ezen felűl, a Mászás teljes testi részvételt, koordinációt és problémamegoldást igényel, intenzíven fejlesztve a gyermekek figyelmi képességeit.
+A mászófalon végzett gyakorlatok célzottan fejlesztik a motoros készségeket, az egyensúlyt és az erőnlétet.
+Ezek a tevékenységek mentális fókuszt igényelnek, például egy adott fogás megragadása vagy egy kihívásos szakaszon való egyensúlyozás.
+A mászás során a gyermekeknek tervezniük kell útvonalukat és végrehajtaniuk a mozdulataikat, ami természetesen fejleszti a figyelmi képességeket.
 
 ---
 
 ### 2. **A túlstimuláció csökkentése**  
 
-A nyugodt, strukturált környezet támogatja a mélyreható tanulást.
+A mászás tapintható, valós fizikai élményt nyújt, minimalizálva az érzéki túlterhelést.
 
-   - **Mászófal alkalmazása:** A képernyőktől vagy zajos környezetektől eltérően a mászás egy tapintható, alacsony technológiájú élményt nyújt, amely minimalizálja az érzéki túlterhelést. A fal középpontba kerül, lehetővé téve a gyermekek számára, hogy elmerüljenek a feladatban külső zavaró tényezők nélkül.
+- A nyugodt, strukturált környezet támogatja a mélyreható tanulást, a fal középpontba kerül, lehetővé téve a gyermekek számára, hogy elmerüljenek a feladatban külső zavaró tényezők nélkül.  Ennek az a terápiás előnye, hogy a __szorongással__ vagy __érzelmi nehézségekkel__ küzdő gyermekek számára a mászás ismétlődő, ritmikus jellege nyugtató hatású lehet.
 
-   - **Terápiás előny:** A szorongással vagy érzelmi nehézségekkel  küzdő gyermekek számára a mászás ismétlődő, ritmikus jellege nyugtató hatású lehet. A fal előre tervezett szerkezete és a fizikai erőfeszítés segít szabályozni az idegrendszert, csökkentve a hiperaktivitást és elősegítve a nyugodt fókuszt.
-
----
+- Idegrendszer szabályozás: A fal előre tervezett szerkezete és a fizikai erőfeszítés segít szabályozni az idegrendszert, csökkentve a hiperaktivitást és elősegítve a nyugodt fókusz
 
 ### 3. **Célorientált feladatok**  
 
