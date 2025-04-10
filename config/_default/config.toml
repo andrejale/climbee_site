@@ -2,6 +2,7 @@ baseURL = "https://www.climbee.fun/"
 relativeURLs = "True"
 languageCode = "en"
 title = "ClimBee Képességfejlesztő Ház"
+enableEmoji = true
 
 copyright = "© Untitled. All rights reserved"
 

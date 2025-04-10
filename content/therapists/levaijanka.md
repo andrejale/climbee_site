@@ -5,12 +5,8 @@ image: images/therapists/Janka.jpg
 weight: 20
 tags: ["pscychology", "content", "sidebar"]
 ---
-# Pszichologia
-Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
-Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
-Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
-consequat etiam lorem ipsum dolor sit amet nullam.
-<!-- more -->
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus
-justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,
-ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet
+
+# Pszichológia
+Kis- és nagykorú pszichológiai tanácsadást vezet, segítve a klienseket érzelmi és személyes kihívásaik kezelésében. Munkája során holisztikus megközelítéssel dolgozis és célja hogy a stressz és az érzelmi nehézségek kezelésével, valamint az önismereti fejlődés támogatásával elősegítse a test és lélek közötti harmónia elérését, és támogassa az egészséges önértékelés kialakítását.
+
+:telephone_receiver: +36 30 848 2464 :globe_with_meridians: https://levaijanka.com
