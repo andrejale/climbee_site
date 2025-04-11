@@ -4,7 +4,7 @@ banner:
   contents: "[**Tudj meg többet a foglalkozásainkról**](mit-csinalunk) vagy "
   button:
     contents: "Kérj időpontot"
-    url: "#"
+    url: "/therapists"
 items:
   - type: highlights
     items_per_row: 3

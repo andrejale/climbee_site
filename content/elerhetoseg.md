@@ -1,5 +1,5 @@
 ---
-title: "Egyébb"
+title: "Elérhetőség"
 description: "Nagyon szívesen várunk mindenkint."
 menu: main
 weight: 80
