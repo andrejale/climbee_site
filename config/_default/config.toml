@@ -85,4 +85,4 @@ gzip = false
     
     [params.footer.map]
         enabled = true
-        header = "Hól vagyunk"
+        header = "Hol vagyunk"
