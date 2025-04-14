@@ -25,7 +25,7 @@
                         <div class="{{ if gt $sidebar_count 0 -}}
                                 col-{{ cond (eq $sidebar_count 1) 8 6 }} col-12-narrower imp-narrower
                                 {{- end }}">
-                            <div id="content">
+                            <div class="article" id="content">
                                 <article>
                                     {{- block "main" . }}{{- end }}
                                 </article>

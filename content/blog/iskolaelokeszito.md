@@ -6,5 +6,4 @@ weight: 30
 tags: ["content", "sidebar"]
 ---
 
-Új csapat tagokkal bővültünk, és egyben új szolgáltatásokkal is. Bemutatjuk az új iskolaelőkészítő 
-Pénteken
+Új csapat tagokkal bővültünk, és egyben új szolgáltatásokkal is. Bemutatjuk az új iskolaelőkészítőt amit péntekenként tartunk.
