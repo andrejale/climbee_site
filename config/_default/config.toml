@@ -67,12 +67,12 @@ gzip = false
 
         [[params.footer.links]]
             header = "Egyéb Tartalom"
-            footer = "Hól Vagyun"
+            footer = "Hol Vagyun"
         [[params.footer.links.links]]
             title = "Tapasztalatok"
             url = "#"
         [[params.footer.links.links]]
-            title = "Engedélyek"
+            title = "Egyéb"
             url = "#"
         [[params.footer.links.links]]
             title = "Galéria"

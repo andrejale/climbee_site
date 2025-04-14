@@ -1,6 +1,6 @@
 ---
 title: "Kik vagyunk"
-description: "Nálunk a fejlesztők magánpraxisban végeznek fejlesztéseket, így időpontot az elérhetőségi rovatban, vagy közvetlenül a fejlesztőtől tudsz kérni."
+description: "Minden fejlesztőnk magánpraxisban végezi a fejlesztéseket, így időpontot az elérhetőségi rovatban, vagy közvetlenül a tőlük tudsz kérni."
 weight: 50
 menu: main
 ---

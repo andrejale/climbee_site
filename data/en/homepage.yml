@@ -29,7 +29,7 @@ items:
     content_type: posts
     max: 4
   - type: cta
-    contents: Gyere, és kukkants be hozzán, hogy ez hogy is néz ki élőben.
+    contents: Inkább egy videón keresztűl mutassuk be hogy ez hogy is néz ki? 
     button:
       contents: Videó Megtekintése
       url: "#"
