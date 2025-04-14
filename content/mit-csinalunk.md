@@ -20,16 +20,11 @@ Ugyan meggyőződésünk, hogy a mászásnak sok pozitív hatása van, de mindig
 
 A logopédusok különböző módszerekkel és technikákkal dolgoznak, hogy segítsenek a pácienseknek fejleszteni és javítani beszéd- és nyelvi képességeiket. A kezelés általában személyre szabott, és figyelembe veszi az egyéni igényeket és célokat.
 
-#### Azt kérdezed, hogy hogyan kapcsolódik a mászáshoz?
-
-    Hogy hogyan A falmásást olyan gyerekeknél van használva akiknek n
-
 [Tudj meg többet ...](../therapies/logopedia)
 
 
 # Pszichológia
 
-Pár szó amit meg kell valakinek írnia. És nagyon fontosak!
 
 # Gyógytorna
 
