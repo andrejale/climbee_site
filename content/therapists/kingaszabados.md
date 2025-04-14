@@ -10,4 +10,4 @@ Szegedi Tudományegyetemen végeztem Gyógytornász BSc képzést. Az egyetem ut
 
 :email: climbeebp@gmail.com
 
-[Bővebben Kingáról ](../therapist_details/kingaszabados-details/)
+[Bővebben Kingáról ](../therapist_details/kingaszabados-details)

@@ -4,7 +4,7 @@ banner:
   contents: "[**Tudj meg többet a foglalkozásainkról**](mit-csinalunk) vagy "
   button:
     contents: "Kérj időpontot"
-    url: "/therapists"
+    url: "/therapist_details"
 items:
   - type: highlights
     items_per_row: 3
@@ -17,7 +17,7 @@ items:
       icon: fa-cat
       content: >
         Csapatunk magas szintű képzettséggel, tapasztalattal rendelkezik. A gyerekekkel való munka naprakész tudáson alapuljon, ezért folyamatosan képezzük magunkat.
-    - title: Letisztúlt Környezet
+    - title: Letisztult Környezet
       icon: fa-seedling
       content: >
         Nyugodt, letisztult tér fogadja a gyerekeket, ahol kevesebb a zavaró inger, mint a mindennapi környezetükben. Ez segít abban, hogy könnyebben tudjanak figyelni, kapcsolódni önmagukhoz és társaikhoz is.

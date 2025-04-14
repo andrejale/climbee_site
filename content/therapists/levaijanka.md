@@ -11,5 +11,5 @@ Kis- és nagykorú pszichológiai tanácsadást vezetek, segítve a klienseket �
 :telephone_receiver: +36 30 848 2464  
 :globe_with_meridians: https://levaijanka.com
 
-[Bővebben Jankáról](../therapist_details/levaijanka-details/) vagy
+[Bővebben Jankáról](../therapist_details/levaijanka-details) vagy
 [Pszichológiáról](../therapies/pszichologia/)

@@ -10,5 +10,5 @@ Közel 10 éve dolgozom a pályán, és ez idő alatt sokféle területen szerez
 :telephone_receiver: +36 20 377 83 93                       
 :globe_with_meridians: [facebook.com/vegso.sara.logopedus](https://www.facebook.com/vegsosaralogopedus)
 
-[Bővebben Sáráról](../therapist_details/vegsosara_details/) vagy
+[Bővebben Sáráról](../therapist_details/vegsosara_details) vagy
 [Logopediarol](../therapies/logopedia/)
