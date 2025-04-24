@@ -5,12 +5,7 @@ draft: false
 image: images/nyari_tabor_25.png
 ---
 
-Mesés játékos mozgásos falmaszas
-    érzelmi, 
-    szociális, 
-    és nyelvi
-    , fejlesztő falmaszas
-
+Nemsokára feltöltjük az információkat :)
 
 
 
