@@ -3,11 +3,11 @@ title: "Mászás"
 description: "Hogyan kapcsódik a mászás a terápiákhoz."
 menu: main
 weight: 70
-image: images/banner.jpg
+image: images/carousel/photo06.jpg
 # image_alt: "Hello!"
 tags: ["examples", "content", "sidebar"]
 sidebar_left: sidebar1
-sidebar_right: sidebar2
+# sidebar_right: sidebar2
 ---
 
 ### Hogyan segíthet a mászófal a koncentráció fejlesztésében?  
