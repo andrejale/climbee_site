@@ -1,9 +1,9 @@
 ---
-title: "Blog"
-description: "Ujdonságok amik fontosak lehetnek a vendégeink számára :)"
+title: "Programok"
+description: "Itt értesűlhets a nálunk zajló újdonságokról és programokról"
 date: 2025-02-05T10:37:39+01:00
 weight: 60
 menu: main
 tags: ["examples", "content", "sidebar"]
-sidebar_right: sidebar1
+# sidebar_right: sidebar1
 ---
