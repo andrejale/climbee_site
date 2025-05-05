@@ -55,6 +55,10 @@ gzip = false
         icon = "fa-facebook-f"
         url = "https://www.facebook.com/climbeee"
     [[params.social]]
+        title = "TikTok"
+        icon = "fab fa-tiktok"
+        url = "https://www.tiktok.com/@climbeee"
+    [[params.social]]
         title = "Youtube"
         icon = "fa-youtube"
         url = "#"
