@@ -11,9 +11,9 @@ Szeretettel várunk nyári táboromba, ahol a mászásé, a mozgásé és a ját
 
 # 🎯 Amit kínálunk:
 * Falmászás a gyerekek életkori sajátosságaihoz igazítva
+* Nyelvi és kommunikációs készségek játékos fejlesztése
 * Szenzoros-mozgásos játékok, finommotorikai kihívások
 * Drámapedagógiai/élménypedagógiai elemekkel átszőtt foglalkozások
-* Kommunikáció és nyelvi fejlesztés
 * Sok szabad játék, kapcsolódás és kreatív tevékenységek
 
 👶 Korosztály: __4–8 év__
