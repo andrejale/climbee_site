@@ -1,5 +1,5 @@
 ---
-title: "Radányi Anna, Pszichológus"
+title: "Radányi Anna, Gyermek Pszichológus"
 date: 2025-05-07T18:06:45+02:00
 draft: false
 image: images/therapists/RadanyiAnna.jpg
