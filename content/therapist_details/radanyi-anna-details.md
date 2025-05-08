@@ -2,7 +2,7 @@
 title: "Radányi Anna, Pszichológus"
 date: 2025-05-07T18:08:25+02:00
 image: images/therapists/RadanyiAnna.jpg
-draft: true
+draft: false
 ---
 
 Okleveles pszichológus, képzésben lévő DSZIT terapeuta vagyok. Gyermekeket és serdülőket segítek abban, hogy személyiségük minél inkább kibontakozhasson és lelkileg egészségessé válhassanak. A közös munka során szorosan együttműködöm a szülőkkel, hiszen mindannyian kapcsolatok hálójában létezünk, amelyekben kölcsönösen hatunk egymásra. Terápiás hozzáállásomat a feltétel nélküli elfogadás és a gyakorlati segítő szemlélet jellemzi. 
