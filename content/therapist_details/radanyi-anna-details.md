@@ -37,3 +37,5 @@ Amennyiben a közös munka mellett döntünk, megállapodunk az ülések gyakori
 - 2023. november - 2024. június: Budai Gyermekkórház és Szakambulancia: pszichológus
 - 2024. augusztus - 2025. június: Bethlen Gábor Technikum, iskolapszichológus
 
+# Időpont-egyeztetés az alábbi email címen keresztűl lehetséges:
+:email: radanyianna.pszichologia@gmail.com
