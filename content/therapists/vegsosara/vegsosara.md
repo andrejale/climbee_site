@@ -11,4 +11,4 @@ Közel 10 éve dolgozom a pályán, és ez idő alatt sokféle területen szerez
 :globe_with_meridians: [facebook](https://www.facebook.com/vegsosaralogopedus),  [instagram](https://www.instagram.com/_vegsosara_logopedus/)
 
 [Bővebben Sáráról](../therapist_details/vegsosara_details) vagy
-[Logopediarol](../therapies/logopedia/)
+[Logopédiarol](../therapies/logopedia/)
