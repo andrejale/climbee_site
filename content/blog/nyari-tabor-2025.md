@@ -28,9 +28,12 @@ Szeretettel várunk nyári táboromba, ahol a mászásé, a mozgásé és a ját
 – __80.000 Ft/hét__
 – __20.000 Ft/nap__ (napokra is lehet jönni)
 
+# Jelentkezés
+A jelentkezési lap kitöltésével lehetséges: ***[JELENTKEZÉSI LAP](https://docs.google.com/forms/d/e/1FAIpQLSeKOEMS9eTAEpr9mottuicGqDJwQ0Yc9xEeiQflmyUmYm_ZHQ/viewform?usp=dialog)***
+
 📆 Jelentkezési határidő: 2025. június 20
 
-💌 Jelentkezés és érdeklődés: 
+💌 Érdeklődés: 
 - __06/20 377-8393__
 - __climbeebp@gmail.com__
 
