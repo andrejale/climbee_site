@@ -42,4 +42,5 @@ Amennyiben a közös munka mellett döntünk, megállapodunk az ülések gyakori
 
 
 # Időpont-egyeztetés az alábbi email címen keresztűl lehetséges:
+:telephone_receiver: +36/20 582-4247
 :email: radanyianna.pszichologia@gmail.com

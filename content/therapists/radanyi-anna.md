@@ -8,4 +8,6 @@ Okleveles pszichológus, és képzésben lévő DSZIT terapeuta vagyok. Már 8 �
 
 :globe_with_meridians: [További részletekről itt olvashatsz](../therapist_details/radanyi-anna-details)
 
+:telephone_receiver: +36/20 582-4247
+
 :email: radanyianna.pszichologia@gmail.com
