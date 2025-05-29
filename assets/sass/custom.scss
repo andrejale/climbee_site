@@ -145,3 +145,15 @@
       text-align: justify;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+}

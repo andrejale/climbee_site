@@ -3,7 +3,7 @@ banner:
   image: "images/banner_quote.jpg"
   contents: "[**Tudj meg többet a foglalkozásainkról**](mit-csinalunk) vagy "
   button:
-    contents: "Kérj időpontot"
+    contents: "Időpontfoglalás"
     url: "/kik-vagyunk"
 items:
   - type: highlights
