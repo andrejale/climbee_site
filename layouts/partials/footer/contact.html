@@ -1,6 +1,6 @@
 <section class="col-6 col-12-narrower">
     <h3>{{ .header | default "Get In Touch" }}</h3>
-    <form name="contact" method="POST" action="{{ .action }}" netlify >
+    <form name="contact" method="POST" netlify >
         <div class="row gtr-50">
             <div class="col-6 col-12-mobilep">
                 <input type="text" name="name" id="name" placeholder="{{ T "contact_name" }}" />
@@ -10,7 +10,7 @@
             </div>
             <div class="col-12">
                 <form class="type">
-                    <select id="Pszihológia" name="therapy">
+                    <select id="Pszihológia" name="therapy[]" multiple>
                         <option value="Logopédia">Logopédia</option>
                         <option value="Gyogytorna">Gyógytorna</option>
                         <option value="Pszihológia">Pszihológia</option>
@@ -21,9 +21,7 @@
                 <textarea name="message" id="message" placeholder="{{ T "contact_message" }}" rows="5"></textarea>
             </div>
             <div class="col-12">
-                <ul class="actions">
-                    <li><input type="submit" class="button alt" value="{{ T "contact_submit" }}" />
-                </ul>
+                <button type="submit">Send</button>
             </div>
         </div>
     </form>
