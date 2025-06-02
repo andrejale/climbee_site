@@ -1,23 +1,31 @@
 <section class="col-6 col-12-narrower">
     <h3>{{ .header | default "Get In Touch" }}</h3>
+        <p>
+            Időpont-egyeztetésért, vagy bármilyen kérdés megválaszolásáért, nyugodtan írjatok nekünk és lépjünk kapcsolatba.
+            Igyekszünk mihamarabb válaszolni, illetve visszahívni ha a telefonszámot is beleírjátok.
+        </p>
         <form name="contact" method="POST" data-netlify="true">
         <p>
-            <label>Your Name: <input type="text" name="name" /></label>
+            <label>Név: <input type="text" name="name" /></label>
         </p>
         <p>
-            <label>Your Email: <input type="email" name="email" /></label>
+            <label>Email: <input type="email" name="email" /></label>
         </p>
         <p>
-            <label>Your Role: <select name="role[]" multiple>
-            <option value="leader">Leader</option>
-            <option value="follower">Follower</option>
+            <label>Foglalkozás: 
+                <select name="role[]">
+                    <option value="Logopedia">Logopédia</option>
+                    <option value="Gyogytorna">Gyógytorna</option>
+                    <option value="Konduktiv">Konduktív</option>
+                    <option value="Pszichologia">Pszichológia</option>
+                    <option value="Maszas">Mászás</option>
             </select></label>
         </p>
         <p>
-            <label>Message: <textarea name="message"></textarea></label>
+            <label>Üzenet: <textarea name="message"></textarea></label>
         </p>
         <p>
-            <button type="submit">Send</button>
+            <button type="submit">Küldés</button>
         </p>
         </form>
 
