@@ -2,7 +2,7 @@
 title: "Szabados Kinga, Gyógytornász" 
 date: 2025-02-05T18:54:17+01:00
 image: images/therapists/Kinga.png
-weight: 20
+weight: 40
 tags: ["", "content", "sidebar"]
 ---
 
