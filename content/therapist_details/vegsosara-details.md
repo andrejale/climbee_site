@@ -6,12 +6,12 @@ draft: false
 ---
 
 :telephone_receiver: +36/20 377-8393                       
-:globe_with_meridians: [facebook](https://www.facebook.com/vegsosaralogopedus),  [instagram](https://www.instagram.com/_vegsosara_logopedus/)
 
-[Bővebben Sáráról](../therapist_details/vegsosara_details) vagy
-[Logopédiarol](../therapies/logopedia/)
+:globe_with_meridians: [facebook](https://www.facebook.com/vegsosaralogopedus),  
 
-Közel 10 éve dolgozom a pályán, és ez idő alatt sokféle területen szereztem tapasztalatot. Kezdetben a korai fejlesztésben tevékenykedtem, ahol a legkisebbek kommunikációs és beszédfejlődését támogattam. Később a gyermekvédelem területén dolgoztam, ahol összetett kihívásokkal találkoztam, és még inkább megerősödött bennem, hogy a megfelelő kommunikáció és a támogató közeg milyen hatalmas erővel bír. 
+:globe_with_meridians: [instagram](https://www.instagram.com/_vegsosara_logopedus/)
+
+Közel 10 éve dolgozom a mint logopédus, és ez idő alatt sokféle területen szereztem tapasztalatot. Kezdetben a korai fejlesztésben tevékenykedtem, ahol a legkisebbek kommunikációs és beszédfejlődését támogattam. Később a gyermekvédelem területén dolgoztam, ahol összetett kihívásokkal találkoztam, és még inkább megerősödött bennem, hogy a megfelelő kommunikáció és a támogató közeg milyen hatalmas erővel bír. 
 
 Az elmúlt években több intézményben is dolgoztam, különböző háttérrel és szükségletekkel rendelkező gyermekekkel. Volt, ahol kizárólag sajátos nevelési igényű gyermekek fejlesztésére specializálódtunk, máshol pedig többségi intézménybe járó gyermekek logopédiai ellátásában vettem részt. Mindezek a tapasztalatok tovább mélyítették a hitemet abban, hogy minden gyermek fejlődése egyedi, és a kulcs a szeretetteljes kapcsolatban, a játék örömében és a biztonságos, elfogadó közegben rejlik.
 

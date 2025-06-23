@@ -1,12 +1,24 @@
 ---
-title: "Radányi Anna, Pszichológus"
+title: "Radányi Anna, Gyermekpszichológus"
 date: 2025-05-07T18:08:25+02:00
-image: images/therapists/RadanyiAnna.jpg
 draft: false
 ---
 
+{{< youtube gW0lArBkm7c >}}
+
+
+## Elérhetőségek az időpont-egyeztetéshez
+
 :email: radanyianna.pszichologia@gmail.com
 
+:telephone_receiver: +36/20 582-4247
+
+# Árak
+
+15,000 Ft / Óra
+
+
+# Rólam
 
 Okleveles pszichológus, képzésben lévő DSZIT terapeuta vagyok. Gyermekeket és serdülőket segítek abban, hogy személyiségük minél inkább kibontakozhasson és lelkileg egészségessé válhassanak. A közös munka során szorosan együttműködöm a szülőkkel, hiszen mindannyian kapcsolatok hálójában létezünk, amelyekben kölcsönösen hatunk egymásra. Terápiás hozzáállásomat a feltétel nélküli elfogadás és a gyakorlati segítő szemlélet jellemzi. 
 A kisebb korosztállyal (3-10 évesek) játékos módszerekkel, nonverbális technikákkal dolgozom, hiszen ők leginkább így fejezik ki belső világukat. A közös alkotás, együtt tevékenykedés (rajz, festés, szerepjáték) során megjelennek azok a lelki konfliktusok, amik foglalkoztatják őket, így ezeknek a feszültsége is csökken. A gyermekekkel tartott alkalmakat rendszeres szülőkonzultációkkal kísérem, ahol a szülőkkel átbeszéljük a tapasztalatokat,
@@ -41,6 +53,3 @@ Amennyiben a közös munka mellett döntünk, megállapodunk az ülések gyakori
 - 2024. augusztus - 2025. június: Bethlen Gábor Technikum, iskolapszichológus
 
 
-# Időpont-egyeztetés az alábbi email címen keresztűl lehetséges:
-:telephone_receiver: +36/20 582-4247
-:email: radanyianna.pszichologia@gmail.com

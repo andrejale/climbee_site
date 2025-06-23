@@ -2,7 +2,7 @@
 title: "Lévai Janka, Pszichológus"
 date: 2025-02-05T18:54:17+01:00
 image: images/therapists/Janka.jpg
-weight: 30
+weight: 60
 tags: ["pscychology", "content", "sidebar"]
 ---
 
