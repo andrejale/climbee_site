@@ -24,7 +24,6 @@ A logopédusok különböző módszerekkel és technikákkal dolgoznak, hogy seg
 
 # Pszichológia
 
-
 # Gyógytorna
 
 [Tudj meg többet ...](therapies/gyogytorna)

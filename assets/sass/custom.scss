@@ -22,7 +22,6 @@
     width:100%;
   }
 
-
 /* CAROUSEL CSS */
 .carousel {position: relative;}
 .carousel::after {
@@ -156,4 +155,15 @@ img {
   height: auto;
   display: block;
   margin: 1rem auto;
+}
+
+@media only screen and (min-width: 600px) {
+  img.therapist_profile{
+    max-width: 30%;
+    height: auto;
+    border: 0;
+    display: block;
+    position: relative;
+    border-radius: _size(radius);
+  }
 }
