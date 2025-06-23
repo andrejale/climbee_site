@@ -5,11 +5,21 @@ image: images/therapists/Sari.jpg
 draft: false
 ---
 
+## Elérhetőségek időpont-egyeztetéshez
+
+
 :telephone_receiver: +36/20 377-8393                       
 
-:globe_with_meridians: [facebook](https://www.facebook.com/vegsosaralogopedus),  
 
-:globe_with_meridians: [instagram](https://www.instagram.com/_vegsosara_logopedus/)
+# Árak
+
+12,000 Ft / Óra
+
+
+# Rólam
+:globe_with_meridians: [Facebook](https://www.facebook.com/vegsosaralogopedus)
+
+:globe_with_meridians: [Instagram](https://www.instagram.com/_vegsosara_logopedus/)
 
 Közel 10 éve dolgozom a mint logopédus, és ez idő alatt sokféle területen szereztem tapasztalatot. Kezdetben a korai fejlesztésben tevékenykedtem, ahol a legkisebbek kommunikációs és beszédfejlődését támogattam. Később a gyermekvédelem területén dolgoztam, ahol összetett kihívásokkal találkoztam, és még inkább megerősödött bennem, hogy a megfelelő kommunikáció és a támogató közeg milyen hatalmas erővel bír. 
 
