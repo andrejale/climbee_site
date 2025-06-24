@@ -10,7 +10,13 @@
 
     {{- if .Params.image }}
     <span class="image featured">
+    {{ if eq .Section "therapists" }}
+        <!-- This content will render only for pages in the "blog" section -->
         <img src="{{ .Params.image | relURL }}" class="therapist_profile" alt="{{ .Params.image_alt }}" />
+    {{ else }}
+        <img src="{{ .Params.image | relURL }}" alt="{{ .Params.image_alt }}" />
+    {{ end }}
+
     </span>
     {{ end }}
 

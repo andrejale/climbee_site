@@ -39,6 +39,9 @@ gzip = false
 [taxonomies]
     tag = "tags"
 
+[permalinks]
+  therapistdetails = "/therapistdetails/:slug/"
+
 [params]
     description = "Belvárosi képességfejlesztő ház honlaplja."
     images = ['images/metaimage.jpg']
