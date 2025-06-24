@@ -1,9 +1,9 @@
 ---
 title: "Lévai Janka, Pszichológus"
-date: 2025-02-05T18:54:17+01:00
+date: 2025-02-06T18:54:17+01:00
 weight: 60
 image: images/therapists/Janka.jpg
-url: "/therapist_details/vegsosara-details"
+slug: "../therapist_details/vegsosara-details"
 draft: false
 ---
 

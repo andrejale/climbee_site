@@ -1,9 +1,9 @@
 ---
-title: "Szabados Kinga"
-image: images/therapists/Kinga.png
-date: 2025-04-14T09:22:26+02:00
+title: "Szabados Kinga, Gyógytornász (Részletek)"
+date: 2025-01-15T07:53:48+02:00
 draft: false
 ---
+
 :email: climbeebp@gmail.com
 
 Szegedi Tudományegyetemen végeztem Gyógytornász BSc képzést. Az egyetem után egy alapítványnál dolgoztam Szegeden, házi betegellátásban. Később a Kiskunfélegyházi Kórház Mozgásszervi rehabilitációs osztályán helyezkedtem el. Az osztályon kívül egyéni, csoportos és vizitornát is tartottam, valamint számos kórkép fizioterápiájával ismerkedtem meg.

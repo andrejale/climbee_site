@@ -3,7 +3,7 @@ title: "Rácz Ági, Gyógypedagógus és TSMT® terapeuta"
 date: 2025-06-07T18:06:45+02:00
 weight: 50
 image: images/therapists/AgiRacz.jpg
-url: "/therapist_details/radanyi-anna-details"
+slug: "../therapist_details/radanyi-anna-details"
 draft: false
 ---
 

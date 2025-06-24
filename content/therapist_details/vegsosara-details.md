@@ -1,9 +1,10 @@
 ---
-title: "Vegső Sára - Logopédus"
-date: 2025-04-14T08:33:48+02:00
-image: images/therapists/Sari.jpg
+title: "Vegső Sára, Logopédus (Részletek)"
+date: 2025-01-14T08:33:48+02:00
 draft: false
 ---
+
+image: images/therapists/Sari.jpg
 
 ## Elérhetőségek időpont-egyeztetéshez
 

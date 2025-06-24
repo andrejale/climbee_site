@@ -1,5 +1,5 @@
 ---
-title: "Radányi Anna, Gyermekpszichológus"
+title: "Radányi Anna, Gyermekpszichológus (Részletek)"
 date: 2025-05-07T18:08:25+02:00
 draft: false
 ---
@@ -16,7 +16,6 @@ draft: false
 # Árak
 
 15,000 Ft / Óra
-
 
 # Rólam
 

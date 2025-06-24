@@ -1,7 +1,6 @@
 ---
-title: "Bálint Bernadett, Konduktor" 
-date: 2025-02-05T18:54:17+01:00
-image: images/therapists/BernadettBalint.jpg
+title: "Bálint Bernadett, Konduktor (Részletek)" 
+date: 2025-01-15T08:03:35+02:00
 draft: false
 ---
 
