@@ -1,6 +1,8 @@
 ---
-title: "Szabados Kinga, Gyógytornász (Részletek)"
+title: "Szabados Kinga"
+description: "Gyógytornász"
 date: 2025-01-15T07:53:48+02:00
+image: images/therapists/Kinga.png
 draft: false
 ---
 

@@ -3,7 +3,7 @@ title: "Radányi Anna, Gyermekpszichológus"
 date: 2025-05-07T18:06:45+02:00
 weight: 40
 image: images/therapists/RadanyiAnna.jpg
-url: "../therapist_details/radanyi-anna-details"
+url: "/therapist_details/radanyi-anna-details"
 draft: false
 ---
 

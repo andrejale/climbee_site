@@ -1,5 +1,6 @@
 ---
-title: "Radányi Anna, Gyermekpszichológus (Részletek)"
+title: "Radányi Anna"
+description: "Gyermekpszichológus"
 date: 2025-05-07T18:08:25+02:00
 draft: false
 ---
@@ -7,7 +8,7 @@ draft: false
 {{< youtube gW0lArBkm7c >}}
 
 
-## Elérhetőségek az időpont-egyeztetéshez
+# Elérhetőségek az időpont-egyeztetéshez
 
 :email: radanyianna.pszichologia@gmail.com
 

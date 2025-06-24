@@ -1,13 +1,12 @@
 ---
-title: "Vegső Sára, Logopédus (Részletek)"
+title: "Vegső Sára"
+description: "Logopédus (Alapító)"
 date: 2025-01-14T08:33:48+02:00
+image: images/therapists/Sari.jpg
 draft: false
 ---
 
-image: images/therapists/Sari.jpg
-
-## Elérhetőségek időpont-egyeztetéshez
-
+# Elérhetőségek időpont-egyeztetéshez
 
 :telephone_receiver: +36/20 377-8393                       
 
@@ -18,6 +17,7 @@ image: images/therapists/Sari.jpg
 
 
 # Rólam
+
 :globe_with_meridians: [Facebook](https://www.facebook.com/vegsosaralogopedus)
 
 :globe_with_meridians: [Instagram](https://www.instagram.com/_vegsosara_logopedus/)
