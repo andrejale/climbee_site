@@ -1,6 +1,6 @@
 ---
 title: "Vegső Sára"
-description: "Logopédus (Alapító)"
+description: "Logopédus és Alapító"
 date: 2025-01-14T08:33:48+02:00
 image: images/therapists/Sari.jpg
 draft: false
@@ -10,11 +10,9 @@ draft: false
 
 :telephone_receiver: +36/20 377-8393                       
 
-
 # Árak
 
 12,000 Ft / Óra
-
 
 # Rólam
 

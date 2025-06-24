@@ -3,7 +3,7 @@ title: "Vegső Sára, Logopédus"
 date: 2025-02-02T10:18:21+01:00
 weight: 10
 image: images/therapists/Sari.jpg
-url: "/therapist_details/vegsosara-details/"
+url: "/therapist_details/vegsosara-details"
 draft: false
 ---
 
