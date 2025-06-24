@@ -3,7 +3,7 @@ title: "Bálint Bernadett, Konduktor"
 date: 2025-02-05T18:54:17+01:00
 image: images/therapists/BernadettBalint.jpg
 weight: 20
-slug: "balintbernadett-details"
+url: "therapist_details/balintbernadett-details"
 tags: ["content", "sidebar"]
 ---
 
