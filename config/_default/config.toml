@@ -1,8 +1,26 @@
 baseURL = "https://www.climbee.fun/"
 relativeURLs = "True"
-languageCode = "en"
-title = "ClimBee Képességfejlesztő Ház"
 enableEmoji = true
+
+defaultContentLanguage = 'hu'
+defaultContentLanguageInSubdir = false
+disableDefaultLanguageRedirect = false
+disableLanguages = []
+
+[languages]
+  [languages.hu]
+    weight = 1
+    title = "ClimBee Képességfejlesztő Ház"
+    languageName = "Magyar"
+  [languages.hu.params]
+    description = "Belvárosi képességfejlesztő ház honlaplja."
+  [languages.en]
+    weight = 2
+    title = "ClimBee Developmental Center"
+    languageName = "English"
+  [languages.en.params]
+    description = "Developmental Center with climbing in focus"
+    
 
 copyright = "© Untitled. All rights reserved"
 
@@ -43,11 +61,9 @@ gzip = false
   therapistdetails = "/therapistdetails/:slug/"
 
 [params]
-    description = "Belvárosi képességfejlesztő ház honlaplja."
     images = ['images/metaimage.jpg']
     show_post_dates = false
     enableSourceMaps = true
-
 
     [[params.social]]
         title = "Instagram"

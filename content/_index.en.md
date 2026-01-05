@@ -1,5 +1,5 @@
 ---
-title: Sziasztok! 😊
+title: Hi! 😊
 menu: main
 weight: 10
 ---
