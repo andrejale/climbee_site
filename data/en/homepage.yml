@@ -1,5 +1,5 @@
 banner:
-  enable: true
+  enable: false
   image: "images/banner_quote.jpg"
   contents: "[**Tudj meg többet a foglalkozásainkról**](mit-csinalunk) vagy "
   button:
@@ -10,7 +10,7 @@ items:
     items_per_row: 3
     items:
     - title: Korai Támogatás 
-      icon: fa-heart
+      icon: fa-child
       content: >
         Ez első években a legfogékonyabb az idegrendszer a tanulásra és fejlődésre. Időben megkezdve a megfelelő fejlesztést, játékosan és örömmel erősíthetjük meg azt, amiben igazán jó lehet.
     - title: Képzett Szakemberek

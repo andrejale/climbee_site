@@ -1,7 +1,7 @@
 ---
 title: "TSMT Terápia, Ágival"
 date: 2025-05-05T09:47:39+02:00
-draft: false
+draft: true
 image: images/blogimages/tsmt_agi.jpg
 ---
 
