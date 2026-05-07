@@ -60,6 +60,11 @@ pattern = "^.+\\.(gif|jpg|jpeg|png|woff|woff2)$"
 cacheControl = "max-age=604800, no-transform, public"
 gzip = false
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [taxonomies]
     tag = "tags"
 

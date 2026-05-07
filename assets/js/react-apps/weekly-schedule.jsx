@@ -16,22 +16,15 @@ const LOCALES = {
 };
 
 // Schedule indexed by day (0 = Mon … 4 = Fri), with per-language title & description.
+// Include a `url` string on items that should show a booking button; omit it to hide the button.
 const SCHEDULE = [
   // Monday
   [
     {
-      id: 'h1', time: '09:00–10:00', type: 'group',
-      title: { hu: 'Mesés fejlesztő falmászás', en: 'Story-based developmental climbing' },
+      id: 'h1', time: '09:00–20:00', type: 'individual',
+      title: { hu: 'Egyéni fejlesztések', en: 'Individual sessions' },
       description: {
-        hu: 'Csoportos foglalkozás 5–8 éves gyerekeknek. Mozgás és képzelet összekapcsolódik a falon.',
-        en: 'Group session for children aged 5–8. Movement and imagination come together on the wall.',
-      },
-    },
-    {
-      id: 'h2', time: '15:00–15:45', type: 'individual',
-      title: { hu: 'Egyéni fejlesztő mászás', en: 'Individual developmental climbing' },
-      description: {
-        hu: 'Személyre szabott egyéni foglalkozás gyógypedagógus vagy gyógytornász vezetésével.',
+        hu: 'Egyéni foglalkozások.',
         en: 'Tailored one-on-one session led by a special-education teacher or physiotherapist.',
       },
     },
@@ -45,6 +38,7 @@ const SCHEDULE = [
         hu: 'Csoportos foglalkozás 5–8 éves gyerekeknek. Mozgás és képzelet összekapcsolódik a falon.',
         en: 'Group session for children aged 5–8. Movement and imagination come together on the wall.',
       },
+      url: '/idopontfoglalas',
     },
   ],
   // Wednesday
@@ -64,6 +58,7 @@ const SCHEDULE = [
         hu: 'Csoportos foglalkozás 5–8 éves gyerekeknek. Mozgás és képzelet összekapcsolódik a falon.',
         en: 'Group session for children aged 5–8. Movement and imagination come together on the wall.',
       },
+      url: '/idopontfoglalas',
     },
   ],
   // Thursday
@@ -86,6 +81,7 @@ const SCHEDULE = [
         hu: 'Csoportos foglalkozás 5–8 éves gyerekeknek. Mozgás és képzelet összekapcsolódik a falon.',
         en: 'Group session for children aged 5–8. Movement and imagination come together on the wall.',
       },
+      url: '/idopontfoglalas',
     },
     {
       id: 'p2', time: '11:00–11:45', type: 'individual',
@@ -97,8 +93,6 @@ const SCHEDULE = [
     },
   ],
 ];
-
-const BOOKING_URL = '/idopontfoglalas';
 
 const TYPE_STYLE = {
   group:      { accent: '#5b9ec9', bg: '#eef6fb' },
@@ -152,23 +146,25 @@ function EventCard({ event, lang, strings }) {
           <p style={{ fontSize: '13px', color: '#555', margin: '0 0 12px', lineHeight: '1.5' }}>
             {event.description[lang]}
           </p>
-          <a
-            href={BOOKING_URL}
-            onClick={e => e.stopPropagation()}
-            style={{
-              display: 'inline-block',
-              padding: '7px 16px',
-              backgroundColor: s.accent,
-              color: 'white',
-              borderRadius: '4px',
-              textDecoration: 'none',
-              fontSize: '12px',
-              fontWeight: '600',
-              letterSpacing: '0.02em',
-            }}
-          >
-            {strings.bookingLabel}
-          </a>
+          {event.url && (
+            <a
+              href={event.url}
+              onClick={e => e.stopPropagation()}
+              style={{
+                display: 'inline-block',
+                padding: '7px 16px',
+                backgroundColor: s.accent,
+                color: 'white',
+                borderRadius: '4px',
+                textDecoration: 'none',
+                fontSize: '12px',
+                fontWeight: '600',
+                letterSpacing: '0.02em',
+              }}
+            >
+              {strings.bookingLabel}
+            </a>
+          )}
         </div>
       )}
     </div>
