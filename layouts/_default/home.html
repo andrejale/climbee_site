@@ -20,7 +20,6 @@
                     {{- partial (printf "homepage/blocks/%s.html" .type) (dict "ctx" $ "item" .) }}
                 {{- end }}
             {{ end }}
-
             {{- partial "footer/footer.html" . -}}
         </div>
         {{- partial "scripts.html" . -}}

@@ -1,5 +1,5 @@
 [contact_name]
-other = "Név"
+other = "Name"
 
 [contact_email]
 other = "Email"
@@ -8,10 +8,22 @@ other = "Email"
 other = "Therapy"
 
 [contact_message]
-other = "Üzenet"
+other = "Message"
 
 [contact_submit]
-other = "Küldés"
+other = "Send"
 
 [language_select]
 other = "Select language"
+
+[sidebar_heading_1]
+other = "Our Methods"
+
+[sidebar_heading_2]
+other = "Our Therapies"
+
+[sidebar_button_1]
+other = "Learn more"
+
+[sidebar_button_2]
+other = "Learn more"

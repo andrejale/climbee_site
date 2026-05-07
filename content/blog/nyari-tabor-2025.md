@@ -7,6 +7,10 @@ image: images/blogimages/nyari_tabor_25_01.png
 
 ### Játék, mozgás és fejlődés egy helyen!
 
+Lala
+// {< react-component name="Calendar" id="my-counter" initialProp=10 >}
+Luyly
+
 Szeretettel várunk nyári táboromba, ahol a mászásé, a mozgásé és a játékos fejlesztésé lesz a főszerep! A Climbee falmászós, szenzoros élménytábora a 4–8 éves gyerekeket hívja egy vidám, biztonságos és támogató kalandra. A napjainkat mesés keretjáték, mászófalas kihívások, finommotorikát éskommunikációs fejlesztő játékok színesítik – mindezt kiscsoportos formában, sok figyelemmel és szeretettel.
 
 # 🎯 Amit kínálunk:
