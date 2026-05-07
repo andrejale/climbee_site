@@ -23,7 +23,7 @@
   }
 
 /* CAROUSEL CSS */
-.carousel {position: relative;}
+.carousel {position: relative; margin-bottom: 0;}
 .carousel::after {
   content: "";
   position: absolute;
@@ -172,10 +172,17 @@
   }
 }
 
-/* In the mobile titleBar (44px fixed bar), center the logo vertically */
+/* In the mobile titleBar (44px fixed bar): place logo next to the menu button */
 @media screen and (max-width: 737px) {
+    #titleBar {
+        text-align: left;
+        padding-left: 52px;
+    }
     #titleBar #logo {
         align-items: center;
+    }
+    #titleBar .logo-text {
+        display: none;
     }
 }
 
