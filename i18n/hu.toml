@@ -1,0 +1,29 @@
+[contact_name]
+other = "Név"
+
+[contact_email]
+other = "Email"
+
+[contact_therapy]
+other = "Terápia"
+
+[contact_message]
+other = "Üzenet"
+
+[contact_submit]
+other = "Küldés"
+
+[language_select]
+other = "Nyelv kiválasztása"
+
+[sidebar_heading_1]
+other = "Módszereink"
+
+[sidebar_heading_2]
+other = "Terápiáink"
+
+[sidebar_button_1]
+other = "Tovább"
+
+[sidebar_button_2]
+other = "Tovább"

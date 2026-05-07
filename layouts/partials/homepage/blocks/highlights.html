@@ -5,8 +5,15 @@
             {{- range .item.items }}
                 <section class="col-{{ $item_cols }} col-12-narrower">
                     <div class="box highlight">
+                        {{- if .url }}
+                        <a href="{{ .url }}">
+                            <i class="icon solid major {{ .icon }}"></i>
+                            <h3>{{ .title }}</h3>
+                        </a>
+                        {{- else }}
                         <i class="icon solid major {{ .icon }}"></i>
                         <h3>{{ .title }}</h3>
+                        {{- end }}
                         <p>{{ .content | markdownify }}</p>
                     </div>
                 </section>

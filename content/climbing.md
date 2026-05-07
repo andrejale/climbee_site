@@ -1,7 +1,6 @@
 ---
 title: "Mászás"
 description: "Hogyan kapcsódik a mászás a terápiákhoz."
-menu: main
 weight: 70
 image: images/carousel/photo06.jpg
 # image_alt: "Hello!"

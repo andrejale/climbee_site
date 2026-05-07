@@ -1,0 +1,39 @@
+banner:
+  enable: false
+  image: "images/banner_quote.jpg"
+  contents: "[**Tudj meg többet a foglalkozásainkról**](mit-csinalunk) vagy "
+  button:
+    contents: "Időpontfoglalás"
+    url: "/egyeni-terapiak"
+items:
+  - type: highlights
+    items_per_row: 3
+    items:
+    - title: Fejlesztő falmászás 
+      icon: fa-users
+      content: >
+        Egyéni és csoportos fejlesztő alkalmak, ahol a falmászás élményén keresztül támogatjuk a gyermekek fejlődését. A foglalkozásokat gyógypedagógusok és/vagy gyógytornászok vezetik.
+      url: "/fejleszto-maszas"
+    - title: Egyéni fejlesztések és terápiák
+      icon: fa-child
+      url: "/egyeni-terapiak"
+      content: >
+        Egyéni formában tartott fejlesztő foglalkozások, ahol a szakemberek az adott gyermek vagy felnőtt egyéni szükségleteihez igazítják a munkát. Elérhető többek között konduktív fejlesztés, gyógytorna (babáknak és felnőtteknek), Dévény-kezelés, logopédia és gyermekpszichológiai támogatás.
+    - title: Alapítvány
+      icon: fa-leaf
+      url: "/alapitvany"
+      content: >
+        Az alapítvány célja, hogy a mászófalas, mozgásalapú fejlesztés lehetőségét minél több gyermek számára elérhetővé tegyük, különösen azoknak az SNI-s gyerekeknek, akiknek a fejlődését ez a játékos, mozgásos forma különösen jól tudja támogatni.
+  - type: heading
+    heading: Célunk
+    contents: Hogy a gyereket előkészítsük hogy könnyebben vegyék majd az elöttuk allo kihívásokat, ügyesebben kapcsolódjanak a társaihoz, és magabiztosabban fedezzek fel a világot. Mind bevalt, mind innovativ technikakat alkalmazva dolgozunk
+  - type: posts
+    #heading: Recent Posts
+    content_type: posts
+    max: 4
+  - type: cta
+    contents: Kukkants be hozzánk! Kíváncsi vagy, milyen egy foglalkozás nálunk? A videókban bepillanthatsz a mászófalas fejlesztések varázslatos világába – és azt is elmagyarázom, miért hasznos terápiás eszköz a mászófal a gyerekek számára.
+    button:
+      contents: Videó
+      url: "#"
+

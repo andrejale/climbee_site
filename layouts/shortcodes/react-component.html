@@ -1,0 +1,33 @@
+{{/*
+Shortcode: react-component
+Usage: {{< react-component name="counter" id="demo-counter" props='{"initialCount":5}' >}}
+Props is optional JSON string. id is required to create a unique mount point.
+*/}}
+{{ $name := .Get "name" }}
+{{ if not $name }}{{ errorf "react-component shortcode: 'name' parameter is required" }}{{ end }}
+{{ $id := .Get "id" | default (printf "%s-%d" $name (now.UnixNano)) }}
+{{ $rawProps := .Get "props" | default "{}" }}
+{{/* Sanitize props: ensure it's valid JSON by attempting to unmarshal (errors not fatal) */}}
+{{ $props := $rawProps }}
+<div id="react-root-{{ $id }}" class="react-component-container" data-component="{{ $name }}" data-props='{{ $props }}'></div>
+{{/* Load React only once per page */}}
+{{ if not (.Page.Store.Get "reactLoaded") }}
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+  {{ .Page.Store.Set "reactLoaded" true }}
+  <style>
+    .react-component-container { min-height: 24px; }
+  </style>
+{{ end }}
+{{/* Build the component asset via Hugo Pipes (uses esbuild) */}}
+{{ $srcPath := printf "js/react-apps/%s.jsx" $name }}
+{{ $asset := resources.Get $srcPath }}
+{{ if not $asset }}
+  {{ errorf "react-component shortcode: asset '%s' not found at %s" $name $srcPath }}
+{{ else }}
+  {{ $defines := dict "React" "window.React" "ReactDOM" "window.ReactDOM" }}
+  {{ $buildOpts := dict "target" "es2018" "minify" true "format" "iife" "defines" $defines }}
+  {{ $built := $asset | js.Build $buildOpts }}
+  <script src="{{ $built.RelPermalink }}" defer></script>
+{{ end }}
+

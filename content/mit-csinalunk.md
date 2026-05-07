@@ -1,8 +1,6 @@
 ---
 title: "Mit csinálunk"
 description: A fejlesztőközpontunk, egy holisztikus menedékhely a gyermekfejlesztés számára.
-menu: main
-weight: 30
 sidebar_left: sidebar1
 ---
 

@@ -1,7 +1,7 @@
 <div id="footer">
     <div class="container">
         <div class="row">
-            {{- if gt (len .Site.Params.footer.links) 0 }}
+            {{- if .Site.Params.footer.links }}
                 {{- $link_cols := div (cond .Site.Params.footer.contact_form.enabled 6 12) (len .Site.Params.footer.links) }}
                 {{- range .Site.Params.footer.links }}
                 <section class="col-{{ $link_cols }} col-6-narrower col-12-mobilep">

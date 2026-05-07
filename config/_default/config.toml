@@ -5,24 +5,30 @@ enableEmoji = true
 defaultContentLanguage = 'hu'
 defaultContentLanguageInSubdir = false
 disableDefaultLanguageRedirect = false
-disableLanguages = []
 
 [languages]
   [languages.hu]
     weight = 1
-    title = "ClimBee Képességfejlesztő Ház"
+    title = "A ClimBee – Gyermekek Komplex Fejlesztését Támogató Alapítvány"
     languageName = "Magyar"
+    copyright = "© A ClimBee – Gyermekek Komplex Fejlesztését Támogató Alapítvány. Minden jog fenntartva."
   [languages.hu.params]
     description = "Belvárosi képességfejlesztő ház honlaplja."
+  [languages.hu.params.footer.contact_form]
+    header = "Kapcsolat"
+  [languages.hu.params.footer.map]
+    header = "Hol vagyunk"
   [languages.en]
     weight = 2
     title = "ClimBee Developmental Center"
     languageName = "English"
+    copyright = "© ClimBee Developmental Center. All rights reserved."
   [languages.en.params]
     description = "Developmental Center with climbing in focus"
-    
-
-copyright = "© Untitled. All rights reserved"
+  [languages.en.params.footer.contact_form]
+    header = "Contact"
+  [languages.en.params.footer.map]
+    header = "Our Location"
 
 [HTTPCache]
   [HTTPCache.cache]
@@ -86,25 +92,8 @@ gzip = false
         icon = "fa-creative-commons"
         url = "https://creativecommons.org/"
 
-    [params.footer]
-
-        [[params.footer.links]]
-            header = "Egyéb Tartalom"
-            footer = "Hol Vagyun"
-        [[params.footer.links.links]]
-            title = "Tapasztalatok"
-            url = "#"
-        [[params.footer.links.links]]
-            title = "Egyéb"
-            url = "#"
-        [[params.footer.links.links]]
-            title = "Galéria"
-            url = "#"
-
     [params.footer.contact_form]
         enabled = true
-        header = "Kapcsolat"
-    
+
     [params.footer.map]
         enabled = true
-        header = "Hol vagyunk"

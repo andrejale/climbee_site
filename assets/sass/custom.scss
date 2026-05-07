@@ -136,6 +136,49 @@
   background-image: url("./images/carousel/photo04.jpg");
 }
 
+/* Header logo: slogan and subtitle side by side */
+#logo {
+    display: inline-flex;
+    align-items: flex-end;
+    gap: 1.6em;
+}
+.logo-text {
+    display: inline-flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.7em;
+}
+.logo-slogan {
+    white-space: nowrap;
+}
+.logo-subtitle {
+    font-size: 0.5em;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 0.01em;
+    opacity: 0.85;
+}
+
+/* On narrow screens where the header is still visible, prevent the
+   subtitle from flowing outside the h1 bottom padding into the carousel */
+@media screen and (max-width: 980px) {
+    .logo-text {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.013em;
+    }
+  .logo-subtitle {
+      font-size: 0.8em;
+  }
+}
+
+/* In the mobile titleBar (44px fixed bar), center the logo vertically */
+@media screen and (max-width: 737px) {
+    #titleBar #logo {
+        align-items: center;
+    }
+}
+
 /* Inner "Kik vagyunk" and "Mit csinalunk". Probably not the nicest way*/
 .inner p {
       text-align: justify;

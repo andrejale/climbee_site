@@ -6,7 +6,12 @@
         {{- if .Site.Data.globalheader.image }}
             <img src="{{ .Site.Data.globalheader.image | relURL }}" alt="{{ .Site.Data.globalheader.image_alt }}" />
         {{- end }}
-        {{ with .Site.Data.globalheader.title }}{{ . | markdownify }}{{ else }}{{ .Site.Title }}{{ end }}
+        <span class="logo-text">
+            <span class="logo-slogan">{{ with .Site.Data.globalheader.title }}{{ . | markdownify }}{{ else }}{{ .Site.Title }}{{ end }}</span>
+            {{- with .Site.Data.globalheader.subtitle }}
+            <span class="logo-subtitle">{{ . }}</span>
+            {{- end }}
+        </span>
     </a></h1></div>
 
     <nav id="nav">
