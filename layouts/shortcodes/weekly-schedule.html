@@ -1,0 +1,18 @@
+{{/* Shortcode: weekly-schedule
+     Auto-injects the current page language as a prop so no manual argument is needed.
+     Usage: {{< weekly-schedule >}}
+*/}}
+{{ $lang := .Page.Language.Lang | default "hu" }}
+{{ $id := printf "weekly-schedule-%d" now.UnixNano }}
+<div id="react-root-{{ $id }}" class="react-component-container" data-component="weekly-schedule" data-props='{"lang":"{{ $lang }}"}'></div>
+{{ if not (.Page.Store.Get "reactLoaded") }}
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+  {{ .Page.Store.Set "reactLoaded" true }}
+  <style>.react-component-container { min-height: 24px; }</style>
+{{ end }}
+{{ $asset := resources.Get "js/react-apps/weekly-schedule.jsx" }}
+{{ $defines := dict "React" "window.React" "ReactDOM" "window.ReactDOM" }}
+{{ $buildOpts := dict "target" "es2018" "minify" true "format" "iife" "defines" $defines }}
+{{ $built := $asset | js.Build $buildOpts }}
+<script src="{{ $built.RelPermalink }}" defer></script>

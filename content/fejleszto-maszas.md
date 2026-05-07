@@ -19,3 +19,9 @@ A Mesés fejlesztő falmászás során a gyerekek történeteken és játékos k
 #### Tudj meg többet arról hogy hogyan segíti a fejlesztő falmászás a gyermekek testi és szellemi fejlődését 
 
 [ITT](/climbing)
+
+---
+
+## Órarend
+
+{{< weekly-schedule >}}
