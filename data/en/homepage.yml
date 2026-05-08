@@ -29,7 +29,5 @@ items:
     content_type: posts
     max: 4
   - type: cta
-    contents: Inkább egy videón keresztűl mutassuk be hogy ez hogy is néz ki? 
-    button:
-      contents: Videó Megtekintése
-      url: "#"
+    contents: Inkább egy videón keresztűl mutassuk be hogy ez hogy is néz ki?
+    video_url: "https://www.youtube.com/embed/VCXHg_IoGLE"

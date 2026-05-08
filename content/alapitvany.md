@@ -1,5 +1,5 @@
 ---
-title: "Alapítvány"
+title: "Alapítványi Tevékenységek"
 description: "A ClimBee – Gyermekek Komplex Fejlesztését Támogató Alapítvány célja és működése."
 menu: main
 weight: 80

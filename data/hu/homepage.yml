@@ -32,8 +32,6 @@ items:
     content_type: posts
     max: 4
   - type: cta
-    contents: Kukkants be hozzánk! Kíváncsi vagy, milyen egy foglalkozás nálunk? A videókban bepillanthatsz a mászófalas fejlesztések varázslatos világába – és azt is elmagyarázom, miért hasznos terápiás eszköz a mászófal a gyerekek számára.
-    button:
-      contents: Videó
-      url: "#"
+    contents: Kukkants be hozzánk! Kíváncsi vagy, milyen egy foglalkozás nálunk? A videókban bepillanthatsz a mászófalas fejlesztések varázslatos világába.
+    video_url: "https://www.youtube.com/embed/VCXHg_IoGLE"
 

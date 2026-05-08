@@ -32,28 +32,36 @@ const SCHEDULE = [
   // Tuesday
   [
     {
-      id: 't1', time: '10:00–11:00', type: 'group',
-      title: { hu: 'Mesés fejlesztő falmászás', en: 'Story-based developmental climbing' },
+      id: 't1', time: '09:00–20:00', type: 'individual',
+      title: { hu: 'Egyéni fejlesztések', en: 'Individual sessions' },
       description: {
-        hu: 'Csoportos foglalkozás 5–8 éves gyerekeknek. Mozgás és képzelet összekapcsolódik a falon.',
-        en: 'Group session for children aged 5–8. Movement and imagination come together on the wall.',
+        hu: 'Egyéni foglalkozások.',
+        en: 'Tailored one-on-one session led by a special-education teacher or physiotherapist.',
       },
-      url: '/idopontfoglalas',
     },
   ],
   // Wednesday
   [
     {
-      id: 'sz1', time: '09:30–10:15', type: 'individual',
+      id: 'sz1', time: '09:30–17:00', type: 'individual',
       title: { hu: 'Egyéni fejlesztő mászás', en: 'Individual developmental climbing' },
       description: {
-        hu: 'Személyre szabott egyéni foglalkozás gyógypedagógus vagy gyógytornász vezetésével.',
+        hu: 'Egyényi fejlesztés és terápiák',
         en: 'Tailored one-on-one session led by a special-education teacher or physiotherapist.',
       },
     },
     {
-      id: 'sz2', time: '14:00–15:00', type: 'group',
-      title: { hu: 'Mesés fejlesztő falmászás', en: 'Story-based developmental climbing' },
+      id: 'sz2', time: '17:00–18:00', type: 'group',
+      title: { hu: 'Kis csoportos falmászás (van hely)', en: 'Developmental climbing session' },
+      description: {
+        hu: 'Csoportos foglalkozás 5–8 éves gyerekeknek akiknek célzottabban, specifikusabb igények szerint fejlesztük a készségeit.',
+        en: 'Group session for children aged 5–8. Movement and imagination come together on the wall.',
+      },
+      url: '/idopontfoglalas',
+    },
+    {
+      id: 'sz3', time: '18:00–19:00', type: 'group',
+      title: { hu: 'Mesés fejlesztő falmászás (van hely)', en: 'Story-based developmental climbing' },
       description: {
         hu: 'Csoportos foglalkozás 5–8 éves gyerekeknek. Mozgás és képzelet összekapcsolódik a falon.',
         en: 'Group session for children aged 5–8. Movement and imagination come together on the wall.',
@@ -64,31 +72,38 @@ const SCHEDULE = [
   // Thursday
   [
     {
-      id: 'cs1', time: '15:00–15:45', type: 'individual',
-      title: { hu: 'Egyéni fejlesztő mászás', en: 'Individual developmental climbing' },
+      id: 'cs1', time: '17:00–18:00', type: 'group',
+      title: { hu: 'Mesés fejlesztő falmászás [HU] (még 1 hely)', en: 'Story-based developmental climbing' },
       description: {
-        hu: 'Személyre szabott egyéni foglalkozás gyógypedagógus vagy gyógytornász vezetésével.',
-        en: 'Tailored one-on-one session led by a special-education teacher or physiotherapist.',
+        hu: 'Mesékbe foglalt, fejlesztési óra 3-4.5 év közötti gyerekeknek, mászófal használatával erősen integrálva.',
+        en: 'Story based developmental ls.',
+      },
+    },
+    {
+      id: 'cs2', time: '18:00–19:00', type: 'group',
+      title: { hu: 'Mesés fejlesztő falmászás [HU] (betelt)', en: 'Story-based developmental climbing' },
+      description: {
+        hu: 'Mesékbe foglalt, fejlesztési óra 4.5-6 év közötti gyerekeknek, mászófal használatával erősen integrálva.',
+        en: 'Story based developmental ls.',
       },
     },
   ],
   // Friday
   [
     {
-      id: 'p1', time: '09:00–10:00', type: 'group',
-      title: { hu: 'Mesés fejlesztő falmászás', en: 'Story-based developmental climbing' },
+      id: 'p1', time: '09:00–16:00', type: 'individual',
+      title: { hu: 'Egyéni fejlesztések', en: 'Individual sessions' },
       description: {
-        hu: 'Csoportos foglalkozás 5–8 éves gyerekeknek. Mozgás és képzelet összekapcsolódik a falon.',
-        en: 'Group session for children aged 5–8. Movement and imagination come together on the wall.',
-      },
-      url: '/idopontfoglalas',
+        hu: 'Egyéni foglalkozások.',
+        en: 'Tailored one-on-one session led by a special-education teacher or physiotherapist.',
+      }
     },
     {
-      id: 'p2', time: '11:00–11:45', type: 'individual',
-      title: { hu: 'Egyéni fejlesztő mászás', en: 'Individual developmental climbing' },
+      id: 'p2', time: '09:00–10:00', type: 'group',
+      title: { hu: 'SNI falmászás', en: 'SNI climbing lesson' },
       description: {
-        hu: 'Személyre szabott egyéni foglalkozás gyógypedagógus vagy gyógytornász vezetésével.',
-        en: 'Tailored one-on-one session led by a special-education teacher or physiotherapist.',
+        hu: '',
+        en: '',
       },
     },
   ],
