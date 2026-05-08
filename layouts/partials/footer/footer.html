@@ -16,10 +16,16 @@
                         {{- end }}
                     </ul>
                     <h3> {{ .footer }} </h3>
-                    {{- partial "footer/mapouter.html" .Site.Params.footer.map }}
                 </section>
                 {{- end }}
             {{ end }}
+
+            {{- if .Site.Params.footer.map.enabled }}
+            <section class="col-6 col-6-narrower col-12-mobilep">
+                {{- with .Site.Params.footer.map.header }}<h3>{{ . }}</h3>{{- end }}
+                {{- partial "footer/mapouter.html" .Site.Params.footer.map }}
+            </section>
+            {{- end }}
 
             {{- if .Site.Params.footer.contact_form.enabled }}
                 {{- partial "footer/contact.html" .Site.Params.footer.contact_form }}
