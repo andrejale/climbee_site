@@ -1,8 +1,9 @@
 ---
 title: "Óvodai fejlesztő délelőttök"
+draft: false
 ---
 
-## Óvodai fejlesztő délelőttök
+![Óvodai foglalkozás](ovoda-01.jpg)
 
 A foglalkozások óvodai csoportok számára, előre egyeztetett rendben zajlanak, heti rendszerességgel. A rendszer hasonlóan illeszkedik az intézményi napirendbe, mint más  különfoglalkozások (pl. úszás).
 A Climbee óvodai programjai strukturált, játékos keretek között valósulnak meg, ahol a mozgás, a szenzoros tapasztalás és a kognitív készségek fejlesztése egységben jelenik meg.
@@ -22,4 +23,7 @@ Amennyiben az intézmények részéről igény merül fel, szívesen tartunk bem
 
 Jelenlegi partnerintézményünk:
 
-Orchidea Óvoda
+[Orchidea Óvoda](https://www.ohebs.hu/%C3%B3voda/%C3%B3voda_az_orchidea_%C3%B3vod%C3%A1r%C3%B3l)
+
+![Óvodai foglalkozás](ovoda-02.jpg)
+![Óvodai foglalkozás](ovoda-03.jpeg)

@@ -2,6 +2,7 @@
 title: "Alapítványi Tevékenységek"
 menu: main
 weight: 80
+draft: false
 sidebar_left: sidebar1
 ---
 

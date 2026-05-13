@@ -100,7 +100,7 @@ const SCHEDULE = [
     },
     {
       id: 'p2', time: '09:00–10:00', type: 'group',
-      title: { hu: 'SNI falmászás', en: 'SNI climbing lesson' },
+      title: { hu: 'Fejlesztő falmászás', en: 'Climbing lesson' },
       description: {
         hu: '',
         en: '',
