@@ -172,17 +172,41 @@
   }
 }
 
-/* In the mobile titleBar (44px fixed bar): place logo next to the menu button */
+/* In the mobile titleBar (44px fixed bar): logo image left, title text center-right */
 @media screen and (max-width: 737px) {
     #titleBar {
         text-align: left;
         padding-left: 52px;
     }
+    #titleBar .title {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding-right: 0.8em;
+    }
+    #titleBar #logo-wrapper,
+    #titleBar h1,
+    #titleBar #logo {
+        width: 100%;
+    }
     #titleBar #logo {
         align-items: center;
+        justify-content: space-between;
+        gap: 0.6em;
     }
     #titleBar .logo-text {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    #titleBar .logo-slogan {
+        font-size: 0.95em;
+        font-weight: bold;
+        white-space: nowrap;
+    }
+    #titleBar .logo-subtitle {
+        font-size: 0.68em;
+        white-space: nowrap;
     }
 }
 
