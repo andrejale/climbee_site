@@ -26,4 +26,4 @@ Jelenlegi partnerintézményünk:
 [Orchidea Óvoda](https://www.ohebs.hu/%C3%B3voda/%C3%B3voda_az_orchidea_%C3%B3vod%C3%A1r%C3%B3l)
 
 ![Óvodai foglalkozás](ovoda-02.jpg)
-![Óvodai foglalkozás](ovoda-03.jpeg)
+![Óvodai foglalkozás](ovoda-03.jpg)
