@@ -1,9 +1,9 @@
 ---
 title: "Óvodai fejlesztő délelőttök"
 draft: false
+image: alapitvany/ovodak/ovoda-01.jpg
+description: "Strukturált, játékos mozgásfejlesztő foglalkozások óvodai csoportok számára, gyógypedagógiai és élménypedagógiai alapokon."
 ---
-
-![Óvodai foglalkozás](ovoda-01.jpg)
 
 A foglalkozások óvodai csoportok számára, előre egyeztetett rendben zajlanak, heti rendszerességgel. A rendszer hasonlóan illeszkedik az intézményi napirendbe, mint más  különfoglalkozások (pl. úszás).
 A Climbee óvodai programjai strukturált, játékos keretek között valósulnak meg, ahol a mozgás, a szenzoros tapasztalás és a kognitív készségek fejlesztése egységben jelenik meg.
