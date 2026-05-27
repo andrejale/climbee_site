@@ -17,7 +17,7 @@ disableDefaultLanguageRedirect = false
   [languages.hu.params.footer.contact_form]
     header = "Kapcsolat"
   [languages.hu.params.footer.map]
-    header = "Hól vagyunk"
+    header = "Hol vagyunk"
   [languages.en]
     weight = 2
     title = "ClimBee Developmental Center"
