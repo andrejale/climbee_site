@@ -210,6 +210,11 @@
     }
 }
 
+/* Space between page description and article content */
+header p {
+    padding-bottom: 0.75em;
+}
+
 /* Inner "Kik vagyunk" and "Mit csinalunk". Probably not the nicest way*/
 .inner p {
       text-align: justify;

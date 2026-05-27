@@ -23,7 +23,7 @@ Közel 10 éve dolgozom mint logopédus/gyógypedagógus, és ez idő alatt sokf
 
 # Árak
 
-12,000 Ft / Óra
+13,000 Ft / Alkalom
 
 # Rólam
 

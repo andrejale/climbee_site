@@ -1,7 +1,7 @@
 ---
 title: "Mit csinálunk"
 description: A fejlesztőközpontunk, egy holisztikus menedékhely a gyermekfejlesztés számára.
-sidebar_left: sidebar1
+sidebar_left: sidebar_therapies
 ---
 
 A ClimBee célja, hogy a gyermekeket teljes egészében – szellemileg, testileg és érzelmileg – támogassa. Szakterületeink közé tartozik a gyógypedagógia, a logopédia, a mozgásfejlesztés, a gyógytorna és a pszichológiai támogatás. Ezek segítségével személyre szabott fejlesztést biztosítunk, hogy a gyerekek leküzdhessék a nehézségeiket és kibontakoztathassák a bennük rejlő lehetőségeket.

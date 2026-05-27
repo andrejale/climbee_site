@@ -52,18 +52,18 @@ const SCHEDULE = [
     },
     {
       id: 'sz2', time: '17:00–18:00', type: 'group',
-      title: { hu: 'Kis csoportos falmászás (van hely)', en: 'Developmental climbing session' },
+      title: { hu: 'Csoportos falmászás [kicsiknek]', en: 'Developmental climbing session' },
       description: {
-        hu: 'Csoportos foglalkozás 5–8 éves gyerekeknek akiknek célzottabban, specifikusabb igények szerint fejlesztük a készségeit.',
-        en: 'Group session for children aged 5–8. Movement and imagination come together on the wall.',
+        hu: 'Csoportos foglalkozás 3–5 éves gyerekeknek akiknek célzottabban, specifikusabb igények szerint fejlesztük a készségeit.',
+        en: 'Group session for children aged 3–5. Movement and imagination come together on the wall.',
       },
       url: '/idopontfoglalas',
     },
     {
       id: 'sz3', time: '18:00–19:00', type: 'group',
-      title: { hu: 'Mesés fejlesztő falmászás (van hely)', en: 'Story-based developmental climbing' },
+      title: { hu: 'Mesés fejlesztő falmászás (2 hely)', en: 'Story-based developmental climbing' },
       description: {
-        hu: 'Csoportos foglalkozás 5–8 éves gyerekeknek. Mozgás és képzelet összekapcsolódik a falon.',
+        hu: 'Csoportos foglalkozás –8 éves gyerekeknek. Mozgás és képzelet összekapcsolódik a falon.',
         en: 'Group session for children aged 5–8. Movement and imagination come together on the wall.',
       },
       url: '/idopontfoglalas',
@@ -83,7 +83,7 @@ const SCHEDULE = [
       id: 'cs2', time: '18:00–19:00', type: 'group',
       title: { hu: 'Mesés fejlesztő falmászás [HU] (betelt)', en: 'Story-based developmental climbing' },
       description: {
-        hu: 'Mesékbe foglalt, fejlesztési óra 4.5-6 év közötti gyerekeknek, mászófal használatával erősen integrálva.',
+        hu: 'Mesékbe foglalt, fejlesztési óra 4. 5-6 év közötti gyerekeknek, mászófal használatával erősen integrálva.',
         en: 'Story based developmental ls.',
       },
     },
