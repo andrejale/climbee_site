@@ -72,7 +72,7 @@ gzip = false
   therapistdetails = "/therapistdetails/:slug/"
 
 [params]
-    images = ['images/metaimage.jpg']
+    images = ['images/bee_vector_sqr.png']
     show_post_dates = false
     enableSourceMaps = true
 
