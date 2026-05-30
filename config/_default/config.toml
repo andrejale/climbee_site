@@ -9,7 +9,7 @@ disableDefaultLanguageRedirect = false
 [languages]
   [languages.hu]
     weight = 1
-    title = "ClimBee – Gyermekek Komplex Fejlesztését Támogató Alapítvány"
+    title = "ClimBee –  Mászófalas Fejlesztő Központ Gyerekeknek | Budapest"
     languageName = "Magyar"
     copyright = "© ClimBee – Gyermekek Komplex Fejlesztését Támogató Alapítvány. Minden jog fenntartva."
   [languages.hu.params]
