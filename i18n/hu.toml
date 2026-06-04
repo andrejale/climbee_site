@@ -13,6 +13,27 @@ other = "Üzenet"
 [contact_submit]
 other = "Küldés"
 
+[contact_intro]
+other = "Időpont-egyeztetésért, vagy bármilyen kérdés megválaszolásáért, nyugodtan írjatok nekünk és lépjünk kapcsolatba. Igyekszünk mihamarabb válaszolni, illetve visszahívni ha a telefonszámot is beleírjátok."
+
+[contact_session_label]
+other = "Foglalkozás"
+
+[contact_option_speech_therapy]
+other = "Logopédia"
+
+[contact_option_physiotherapy]
+other = "Gyógytorna"
+
+[contact_option_conductive]
+other = "Konduktív"
+
+[contact_option_psychology]
+other = "Pszichológia"
+
+[contact_option_climbing]
+other = "Mászás"
+
 [language_select]
 other = "Nyelv kiválasztása"
 
@@ -27,3 +48,6 @@ other = "Tovább"
 
 [sidebar_button_2]
 other = "Tovább"
+
+[read_more]
+other = "Bővebben"

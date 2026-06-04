@@ -2,13 +2,14 @@
     {{ if hugo.IsMultilingual }}
         {{- partial "languages.html" . }}
     {{- end -}}
+    {{ $globalheader := index (index .Site.Data .Site.Language.Lang | default .Site.Data) "globalheader" | default .Site.Data.globalheader }}
     <div id="logo-wrapper"><h1><a href="{{ .Site.BaseURL }}" id="logo">
-        {{- if .Site.Data.globalheader.image }}
-            <img src="{{ .Site.Data.globalheader.image | relURL }}" alt="{{ .Site.Data.globalheader.image_alt }}" />
+        {{- if $globalheader.image }}
+            <img src="{{ $globalheader.image | relURL }}" alt="{{ $globalheader.image_alt }}" />
         {{- end }}
         <span class="logo-text">
-            <span class="logo-slogan">{{ with .Site.Data.globalheader.title }}{{ . | markdownify }}{{ else }}{{ .Site.Title }}{{ end }}</span>
-            {{- with .Site.Data.globalheader.subtitle }}
+            <span class="logo-slogan">{{ with $globalheader.title }}{{ . | markdownify }}{{ else }}{{ .Site.Title }}{{ end }}</span>
+            {{- with $globalheader.subtitle }}
             <span class="logo-subtitle">{{ . }}</span>
             {{- end }}
         </span>

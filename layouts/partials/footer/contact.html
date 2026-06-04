@@ -1,31 +1,28 @@
 <section class="col-6 col-12-narrower">
     <h3>{{ .header | default "Get In Touch" }}</h3>
-        <p>
-            Időpont-egyeztetésért, vagy bármilyen kérdés megválaszolásáért, nyugodtan írjatok nekünk és lépjünk kapcsolatba.
-            Igyekszünk mihamarabb válaszolni, illetve visszahívni ha a telefonszámot is beleírjátok.
-        </p>
+        <p>{{ i18n "contact_intro" }}</p>
         <form name="contact" method="POST" data-netlify="true">
         <p>
-            <label>Név: <input type="text" name="name" /></label>
+            <label>{{ i18n "contact_name" }}: <input type="text" name="name" /></label>
         </p>
         <p>
-            <label>Email: <input type="email" name="email" /></label>
+            <label>{{ i18n "contact_email" }}: <input type="email" name="email" /></label>
         </p>
         <p>
-            <label>Foglalkozás: 
+            <label>{{ i18n "contact_session_label" }}:
                 <select name="role[]">
-                    <option value="Logopedia">Logopédia</option>
-                    <option value="Gyogytorna">Gyógytorna</option>
-                    <option value="Konduktiv">Konduktív</option>
-                    <option value="Pszichologia">Pszichológia</option>
-                    <option value="Maszas">Mászás</option>
+                    <option value="Logopedia">{{ i18n "contact_option_speech_therapy" }}</option>
+                    <option value="Gyogytorna">{{ i18n "contact_option_physiotherapy" }}</option>
+                    <option value="Konduktiv">{{ i18n "contact_option_conductive" }}</option>
+                    <option value="Pszichologia">{{ i18n "contact_option_psychology" }}</option>
+                    <option value="Maszas">{{ i18n "contact_option_climbing" }}</option>
             </select></label>
         </p>
         <p>
-            <label>Üzenet: <textarea name="message"></textarea></label>
+            <label>{{ i18n "contact_message" }}: <textarea name="message"></textarea></label>
         </p>
         <p>
-            <button type="submit">Küldés</button>
+            <button type="submit">{{ i18n "contact_submit" }}</button>
         </p>
         </form>
 

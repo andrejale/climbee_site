@@ -1,33 +1,36 @@
 banner:
   enable: false
   image: "images/banner_quote.jpg"
-  contents: "[**Tudj meg többet a foglalkozásainkról**](mit-csinalunk) vagy "
+  contents: "[**Learn more about what we do**](mit-csinalunk) or "
   button:
-    contents: "Időpontfoglalás"
+    contents: "Book an appointment"
     url: "/egyeni-terapiak"
 items:
   - type: highlights
     items_per_row: 3
     items:
-    - title: Korai Támogatás 
+    - title: Developmental Wall Climbing
+      icon: fa-users
+      content: >
+        Individual and group developmental sessions where children's development is supported through the experience of wall climbing. Sessions are led by special education teachers and/or physiotherapists.
+      url: "/fejleszto-maszas"
+    - title: Individual Therapies & Development
       icon: fa-child
+      url: "/egyeni-terapiak"
       content: >
-        Ez első években a legfogékonyabb az idegrendszer a tanulásra és fejlődésre. Időben megkezdve a megfelelő fejlesztést, játékosan és örömmel erősíthetjük meg azt, amiben igazán jó lehet.
-    - title: Képzett Szakemberek
-      icon: fa-cat
+        Individually tailored developmental sessions where specialists adapt their work to the specific needs of the child or adult. Services include conductive education, physiotherapy (for babies and adults), Dévény treatment, speech therapy, and child psychology support.
+    - title: Foundation
+      icon: fa-leaf
+      url: "/alapitvany"
       content: >
-        Csapatunk magas szintű képzettséggel, tapasztalattal rendelkezik. A gyerekekkel való munka naprakész tudáson alapuljon, ezért folyamatosan képezzük magunkat.
-    - title: Letisztult Környezet
-      icon: fa-seedling
-      content: >
-        Nyugodt, letisztult tér fogadja a gyerekeket, ahol kevesebb a zavaró inger, mint a mindennapi környezetükben. Ez segít abban, hogy könnyebben tudjanak figyelni, kapcsolódni önmagukhoz és társaikhoz is.
+        The Foundation's mission is to make climbing-wall-based, movement-centred development accessible to as many children as possible — especially children with special educational needs, whose development this playful, movement-based approach can support particularly well.
   - type: heading
-    heading: Célunk
-    contents: Hogy a gyereket előkészítsük hogy könnyebben vegyék majd az elöttuk allo kihívásokat, ügyesebben kapcsolódjanak a társaihoz, és magabiztosabban fedezzek fel a világot. Mind bevalt, mind innovativ technikakat alkalmazva dolgozunk
+    heading: Our Goal
+    contents: To prepare children so they can more easily meet the challenges ahead, connect more skillfully with their peers, and explore the world with greater confidence. We work using both proven and innovative techniques.
   - type: posts
     #heading: Recent Posts
     content_type: posts
     max: 4
   - type: cta
-    contents: Inkább egy videón keresztűl mutassuk be hogy ez hogy is néz ki?
+    contents: Curious about what a session looks like? Take a peek in the videos and discover the magical world of climbing-wall development.
     video_url: "https://www.youtube.com/embed/VCXHg_IoGLE"
