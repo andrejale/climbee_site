@@ -25,3 +25,13 @@ A 4 alkalom 5 hét alatt használható fel.
 ### Szülők jelenléte
 
 Az első hónapban szeretettel várjuk a szülők jelenlétét is a foglalkozásokon, hogy a gyermek számára biztonságos, nyugodt légkörben indulhasson el a közös munka. Ahogy kialakul a bizalom, a fejlesztések hatékonysága érdekében arra kérjük a szülőket, hogy a kényelmes váróteremben várják gyermeküket, amíg az önállóan vesz részt a foglalkozásokon.
+
+### Gyakori Kérdések
+
+{{< faq q="Hány éves kortól jöhet a gyermek?" >}}
+Leg 3-6 .
+{{< /faq >}}
+
+{{< faq q="Mi történik, ha a gyermek beteg és kimarad egy alkalom?" >}}
+Ide jön a válasz.
+{{< /faq >}}

@@ -25,3 +25,13 @@ Valid from 1 June 2026.
 ### Parents' presence
 
 During the first month, we warmly welcome parents to attend the sessions, so that the child can start the shared work in a safe, calm atmosphere. As trust develops, in the interest of session effectiveness, we ask parents to wait for their child in the comfortable waiting area while the child participates independently in the sessions.
+
+### Frequently Asked Questions
+
+{{< faq q="From what age can my child join?" >}}
+Answer goes here.
+{{< /faq >}}
+
+{{< faq q="What happens if my child is ill and misses a session?" >}}
+Answer goes here.
+{{< /faq >}}

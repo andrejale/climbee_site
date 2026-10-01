@@ -1,0 +1,14 @@
+{{/* Shortcode: faq
+     One expandable question/answer item. The inner content is rendered as Markdown.
+     Add `open="true"` to have it expanded by default.
+     Usage:
+       {{< faq q="Kérdés?" >}}
+       Válasz, **Markdown** is mehet.
+       {{< /faq >}}
+*/}}
+<details class="faq-item"{{ if eq (.Get "open") "true" }} open{{ end }}>
+  <summary>{{ .Get "q" | markdownify }}</summary>
+  <div class="faq-answer">
+    {{ .Inner | .Page.RenderString (dict "display" "block") }}
+  </div>
+</details>
