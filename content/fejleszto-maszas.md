@@ -24,6 +24,7 @@ Az egyéni falmászó foglalkozások során a fejlesztés teljes mértékben az 
 
 ### Órarend
 
+
 {{< weekly-schedule >}}
 
 

@@ -16,15 +16,12 @@ A 4 alkalom 5 hét alatt használható fel.
 Érvényes 2026.06.01-től
 
 
-### Szükséges felszerelés
+### Órarend
 
-* **Benti cipő**, lehetőség szering világos talpú. Zokniban is lehet mászni bár kevésbé kényelmes.
-* **Játszós ruhára** ami kényelmes 
-* Opcionálisan, kifolyásgátló kulacs
 
-### Szülők jelenléte
+{{< weekly-schedule >}}
 
-Az első hónapban szeretettel várjuk a szülők jelenlétét is a foglalkozásokon, hogy a gyermek számára biztonságos, nyugodt légkörben indulhasson el a közös munka. Ahogy kialakul a bizalom, a fejlesztések hatékonysága érdekében arra kérjük a szülőket, hogy a kényelmes váróteremben várják gyermeküket, amíg az önállóan vesz részt a foglalkozásokon.
+
 
 ### Gyakori Kérdések
 
@@ -60,6 +57,10 @@ Időpontot telefonon vagy e-mailben tudtok egyeztetni velünk.
 A csoportok **heti egy alkalommal** találkoznak, egy foglalkozás **50 perces**. A csoportok az egész tanév során folyamatosan működnek. Az aktuális időpontokat az [órarendünkben]({{< relref "/schedule" >}}) találjátok.
 {{< /faq >}}
 
+{{< faq q="Szülők jelenl lehetnek e az órákon?" >}}
+Az első hónapban szeretettel várjuk a szülők jelenlétét is a foglalkozásokon, hogy a gyermek számára biztonságos, nyugodt légkörben indulhasson el a közös munka. Ahogy kialakul a bizalom, a fejlesztések hatékonysága érdekében arra kérjük a szülőket, hogy a kényelmes váróteremben várják gyermeküket, amíg az önállóan vesz részt a foglalkozásokon.
+{{< /faq >}}
+
 {{< faq q="Miért fontos, hogy rendszeresen járjon a gyermek?" >}}
 Óráink tematikusan egymásra épülnek. Pedagógiai szempontból fontos, hogy a csoport jól összeszokjon, és stabil közös alap alakuljon ki, ezért arra kérünk benneteket, hogy lehetőség szerint minél kevesebb alkalom maradjon ki.
 {{< /faq >}}
@@ -85,9 +86,10 @@ Címünk: **1061 Budapest, Jókai tér 3., I. emelet**, az Oktogon közvetlen k�
 {{< /faq >}}
 
 {{< faq q="Mit kell hozni a foglalkozásra?" >}}
-- **Benti cipő**, lehetőleg fehér vagy világos talpú, mert az kevésbé hagy nyomot a falon
+- **Benti cipő**, lehetőleg fehér vagy világos talpú
 - **Kényelmes ruha**, amiben szabadon lehet mozogni
 - **Kulacs**, hogy óra közben tudjunk folyadékot pótolni
+
 {{< /faq >}}
 
 {{< faq q="Mi van, ha a gyermekem az első alkalommal bizonytalan vagy nem akar mászni?" >}}
