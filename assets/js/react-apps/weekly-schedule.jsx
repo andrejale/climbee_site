@@ -1,4 +1,9 @@
-const { useState } = React;
+const { useState, useEffect } = React;
+
+// Published Google Sheet (File → Share → Publish to web → CSV).
+// One row per session; see rowsToSchedule() for the expected columns.
+const SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTX7r7GrVyyEbKCYgF6UZSNALP2bYYdZPpN2yTqQBWf71pKHR-PQjLQFs_RcwlPMxoHOhbf-AklKxdo/pub?output=csv';
+const FETCH_TIMEOUT_MS = 8000;
 
 const LOCALES = {
   hu: {
@@ -6,18 +11,21 @@ const LOCALES = {
     bookingLabel: 'Időpontfoglalás →',
     typeLabels: { group: 'Csoportos', individual: 'Egyéni' },
     emptyDay: '–',
+    loading: 'Órarend betöltése…',
   },
   en: {
     days: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
     bookingLabel: 'Book a session →',
     typeLabels: { group: 'Group', individual: 'Individual' },
     emptyDay: '–',
+    loading: 'Loading schedule…',
   },
 };
 
-// Schedule indexed by day (0 = Mon … 4 = Fri), with per-language title & description.
+// Fallback schedule, shown only if the Google Sheet can't be loaded.
+// Indexed by day (0 = Mon … 4 = Fri), with per-language title & description.
 // Include a `url` string on items that should show a booking button; omit it to hide the button.
-const SCHEDULE = [
+const FALLBACK_SCHEDULE = [
   // Monday
   [
     {
@@ -46,7 +54,7 @@ const SCHEDULE = [
       id: 'sz1', time: '09:30–17:00', type: 'individual',
       title: { hu: 'Egyéni fejlesztő mászás', en: 'Individual developmental climbing' },
       description: {
-        hu: 'Egyényi fejlesztés és terápiák',
+        hu: 'Egyéni fejlesztés és terápiák.',
         en: 'Tailored one-on-one session led by a special-education teacher or physiotherapist.',
       },
     },
@@ -54,8 +62,8 @@ const SCHEDULE = [
       id: 'sz2', time: '17:00–18:00', type: 'group',
       title: { hu: 'Csoportos falmászás [kicsiknek]', en: 'Developmental climbing session' },
       description: {
-        hu: 'Csoportos foglalkozás 3–5 éves gyerekeknek akiknek célzottabban, specifikusabb igények szerint fejlesztük a készségeit.',
-        en: 'Group session for children aged 3–5. Movement and imagination come together on the wall.',
+        hu: 'Csoportos foglalkozás 3–5 éves gyerekeknek, akiknek a készségeit célzottabban, specifikus igényeik szerint fejlesztjük.',
+        en: 'Group session for children aged 3–5, developing their skills in a more targeted way, tailored to their specific needs.',
       },
       url: '/idopontfoglalas',
     },
@@ -63,7 +71,7 @@ const SCHEDULE = [
       id: 'sz3', time: '18:00–19:00', type: 'group',
       title: { hu: 'Mesés fejlesztő falmászás (2 hely)', en: 'Story-based developmental climbing' },
       description: {
-        hu: 'Csoportos foglalkozás –8 éves gyerekeknek. Mozgás és képzelet összekapcsolódik a falon.',
+        hu: 'Csoportos foglalkozás 5–8 éves gyerekeknek. Mozgás és képzelet összekapcsolódik a falon.',
         en: 'Group session for children aged 5–8. Movement and imagination come together on the wall.',
       },
       url: '/idopontfoglalas',
@@ -75,16 +83,16 @@ const SCHEDULE = [
       id: 'cs1', time: '17:00–18:00', type: 'group',
       title: { hu: 'Mesés fejlesztő falmászás [HU] (még 1 hely)', en: 'Story-based developmental climbing' },
       description: {
-        hu: 'Mesékbe foglalt, fejlesztési óra 3-4.5 év közötti gyerekeknek, mászófal használatával erősen integrálva.',
-        en: 'Story based developmental ls.',
+        hu: 'Mesékbe foglalt fejlesztő óra 3–4,5 év közötti gyerekeknek, mászófal használatával erősen integrálva.',
+        en: 'Story-based developmental session for children aged 3–4.5, with the climbing wall closely integrated.',
       },
     },
     {
       id: 'cs2', time: '18:00–19:00', type: 'group',
       title: { hu: 'Mesés fejlesztő falmászás [HU] (betelt)', en: 'Story-based developmental climbing' },
       description: {
-        hu: 'Mesékbe foglalt, fejlesztési óra 4. 5-6 év közötti gyerekeknek, mászófal használatával erősen integrálva.',
-        en: 'Story based developmental ls.',
+        hu: 'Mesékbe foglalt fejlesztő óra 4,5–6 év közötti gyerekeknek, mászófal használatával erősen integrálva.',
+        en: 'Story-based developmental session for children aged 4.5–6, with the climbing wall closely integrated.',
       },
     },
   ],
@@ -108,6 +116,94 @@ const SCHEDULE = [
     },
   ],
 ];
+
+// Minimal RFC 4180 CSV parser: handles quoted fields, escaped quotes, and commas/newlines inside quotes.
+function parseCsv(text) {
+  const rows = [];
+  let row = [], field = '', inQuotes = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (inQuotes) {
+      if (c === '"' && text[i + 1] === '"') { field += '"'; i++; }
+      else if (c === '"') inQuotes = false;
+      else field += c;
+    } else if (c === '"') inQuotes = true;
+    else if (c === ',') { row.push(field); field = ''; }
+    else if (c === '\n' || c === '\r') {
+      if (c === '\r' && text[i + 1] === '\n') i++;
+      row.push(field); rows.push(row); row = []; field = '';
+    } else field += c;
+  }
+  if (field !== '' || row.length) { row.push(field); rows.push(row); }
+  return rows;
+}
+
+// Lowercase and strip accents, so "Csütörtök", "csutortok" and "CSÜTÖRTÖK" all match.
+const normalize = str => (str || '').normalize('NFD').replace(/[̀-ͯ]/g, '').trim().toLowerCase();
+
+const DAY_INDEX = {};
+Object.values(LOCALES).forEach(l => l.days.forEach((d, i) => { DAY_INDEX[normalize(d)] = i; }));
+
+const INACTIVE_VALUES = ['0', 'false', 'no', 'nem'];
+
+// Expected columns (any order, header names case-insensitive):
+// day, time, type, title_hu, title_en, desc_hu, desc_en, booking_url, active
+function rowsToSchedule(rows) {
+  const [header, ...body] = rows;
+  if (!header) return null;
+  const col = Object.fromEntries(header.map((h, i) => [normalize(h), i]));
+  if (col.day === undefined || col.time === undefined) return null;
+  const get = (r, name) => (col[name] === undefined ? '' : (r[col[name]] || '').trim());
+
+  const schedule = FALLBACK_SCHEDULE.map(() => []);
+  body.forEach((r, n) => {
+    const day = DAY_INDEX[normalize(get(r, 'day'))];
+    if (day === undefined) return; // blank or unrecognised day → skip row
+    if (INACTIVE_VALUES.includes(normalize(get(r, 'active')))) return;
+
+    const type = normalize(get(r, 'type')) === 'individual' ? 'individual' : 'group';
+    const titleHu = get(r, 'title_hu'), titleEn = get(r, 'title_en');
+    const descHu = get(r, 'desc_hu'), descEn = get(r, 'desc_en');
+    const url = get(r, 'booking_url');
+    schedule[day].push({
+      id: `row-${n}`,
+      time: get(r, 'time'),
+      type,
+      // Fall back to the other language when a translation is missing.
+      title: { hu: titleHu || titleEn, en: titleEn || titleHu },
+      description: { hu: descHu || descEn, en: descEn || descHu },
+      ...(url && { url }),
+    });
+  });
+  // Sort each day by start time; ties keep sheet order.
+  schedule.forEach(day => day.sort((a, b) => a.time.localeCompare(b.time)));
+  return schedule.some(day => day.length) ? schedule : null;
+}
+
+// Fetched once per page, shared by every schedule on it.
+let schedulePromise = null;
+function loadSchedule() {
+  if (!schedulePromise) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
+    schedulePromise = fetch(SHEET_CSV_URL, { signal: controller.signal })
+      .then(res => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return res.text();
+      })
+      .then(text => {
+        const schedule = rowsToSchedule(parseCsv(text));
+        if (!schedule) throw new Error('no valid rows');
+        return schedule;
+      })
+      .catch(err => {
+        console.warn('weekly-schedule: using fallback schedule:', err);
+        return FALLBACK_SCHEDULE;
+      })
+      .finally(() => clearTimeout(timer));
+  }
+  return schedulePromise;
+}
 
 const TYPE_STYLE = {
   group:      { accent: '#5b9ec9', bg: '#eef6fb' },
@@ -189,6 +285,21 @@ function EventCard({ event, lang, strings }) {
 function WeeklyCalendar({ lang }) {
   const resolvedLang = (lang && LOCALES[lang]) ? lang : 'hu';
   const strings = LOCALES[resolvedLang];
+  const [schedule, setSchedule] = useState(null);
+
+  useEffect(() => {
+    let cancelled = false;
+    loadSchedule().then(data => { if (!cancelled) setSchedule(data); });
+    return () => { cancelled = true; };
+  }, []);
+
+  if (!schedule) {
+    return (
+      <div style={{ margin: '2em 0', fontSize: '13px', color: '#999', textAlign: 'center' }}>
+        {strings.loading}
+      </div>
+    );
+  }
 
   return (
     <div style={{ margin: '2em 0', overflowX: 'auto' }}>
@@ -213,9 +324,9 @@ function WeeklyCalendar({ lang }) {
             }}>
               {day}
             </div>
-            {(SCHEDULE[i] || []).length === 0
+            {(schedule[i] || []).length === 0
               ? <div style={{ fontSize: '12px', color: '#ccc', textAlign: 'center', padding: '12px 0' }}>{strings.emptyDay}</div>
-              : (SCHEDULE[i] || []).map(event => (
+              : (schedule[i] || []).map(event => (
                   <EventCard key={event.id} event={event} lang={resolvedLang} strings={strings} />
                 ))
             }
