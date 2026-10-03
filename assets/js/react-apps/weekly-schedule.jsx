@@ -12,7 +12,7 @@ const LOCALES = {
     typeLabels: { group: 'Csoportos', individual: 'Egyéni' },
     emptyDay: '–',
     loading: 'Órarend betöltése…',
-    spots: n => `(${n} hely)`,
+    spots: n => (n === 0 ? '(betelt)' : `(${n} hely)`),
   },
   en: {
     days: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
@@ -20,7 +20,7 @@ const LOCALES = {
     typeLabels: { group: 'Group', individual: 'Individual' },
     emptyDay: '–',
     loading: 'Loading schedule…',
-    spots: n => `(${n} avail. spots)`,
+    spots: n => (n === 0 ? '(full)' : `(${n} avail. spots)`),
   },
 };
 
