@@ -27,7 +27,7 @@ During the first month, we warmly welcome parents to attend the sessions, so tha
 {{< faq q="What is the difference between group and individual climbing sessions?" >}}
 **Individual sessions** are held with one of our therapists and focus on a specific area, such as special education, psychology or physiotherapy. A session lasts 45 minutes.
 
-Our **group Story-Based Developmental Climbing** sessions offer complex, all-round development: we combine climbing with cognitive, speech, social and other special-education tasks. A big advantage of the group is that cooperation, paying attention to others and following shared rules develop along the way.
+Our **group Story-Based Developmental Climbing** sessions offer complex, all-round development: we combine climbing with cognitive, speech, social and other special-education tasks. A big advantage of the group is that cooperation, paying attention to others and following shared rules develop along the way. A session lasts 50 minutes.
 {{< /faq >}}
 
 {{< faq q="What makes the climbing “story-based”?" >}}

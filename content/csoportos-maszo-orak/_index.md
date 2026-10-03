@@ -40,7 +40,7 @@ Fizetés első hónapban alkalmanként lehtet utalni, vagy készpénzben. Utána
 {{< faq q="Mi a különbség a csoportos és az egyéni mászó foglalkozás között?" >}}
 Az **egyéni órák** valamelyik fejlesztőnkkel zajlanak, és egy konkrét gyógypedagógiai, pszichológiai vagy gyógytornászati terület célzott fejlesztésére fókuszálnak. Egy alkalom 45 perces.
 
-A **csoportos Mesés Fejlesztő Falmászó** foglalkozásokon komplex, átfogó fejlesztés zajlik: a mászást kognitív, beszéd-, társas és egyéb gyógypedagógiai feladatokkal kombináljuk. A csoport előnye, hogy közben az együttműködés, az egymásra figyelés és a szabályokhoz való alkalmazkodás is fejlődik.
+A **csoportos Mesés Fejlesztő Falmászó** foglalkozásokon komplex, átfogó fejlesztés zajlik: a mászást kognitív, beszéd-, társas és egyéb gyógypedagógiai feladatokkal kombináljuk. A csoport előnye, hogy közben az együttműködés, az egymásra figyelés és a szabályokhoz való alkalmazkodás is fejlődik. Egy alkalom 50 perces
 {{< /faq >}}
 
 {{< faq q="Mitől „mesés” a falmászás?" >}}
