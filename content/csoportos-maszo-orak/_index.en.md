@@ -1,19 +1,15 @@
 ---
 title: "Group Climbing Sessions"
 draft: false
-image: csoportos-maszo-orak/csoport-01.jpg
+image: csoportos-maszo-orak/climbing_class_02.jpg
 description: What makes ClimBee special is that we build development on wall climbing. We use climbing not as a sport, but as a complex developmental tool. Children develop their movement, attention, sensory processing, cooperation, and many other foundational skills through story-based developmental climbing. Sessions take place in small groups, grounded in special education, drama-based pedagogy, and experiential learning.
 ---
 
 ### Prices:
 
-Group session fee: **8,000 HUF / session**.
+Group session fee: **10,000 HUF / session**.
 
-Payment in the first month can be made per session by bank transfer or in cash. Thereafter, the monthly climbing session fee is **32,000 HUF, covering 4 sessions**.
-
-The 4 sessions can be used within 5 weeks.
-
-Valid from 1 June 2026.
+Payment in the first month can be made per session by bank transfer or in cash. Thereafter, the monthly climbing session fee is **32,000 HUF, covering 4 sessions**, that can be used within 5 weeks.
 
 
 ### Required equipment

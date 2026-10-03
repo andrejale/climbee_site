@@ -1,19 +1,31 @@
 ---
-title: "Csoportos Mászó Órák"
+title: "Fejlesztő falmászás"
+menu: main
+weight: 30
+aliases:
+  - /fejleszto-maszas
 draft: false
-image: csoportos-maszo-orak/csoport-01.jpg
+image: csoportos-maszo-orak/climbing_class_02.jpg
 description: A ClimBee program különlegessége, hogy a fejlesztést falmászásra építjük. A mászást nem sporttevékenységként használjuk, hanem komplex fejlesztő eszközként. A gyerekek mesés fejlesztő falmászás közben fejlődnek mozgásban, figyelemben, érzékelésben, együttműködésben valamint számos egyéb alapkészség területén. A foglalkozások kis létszámú csoportokban zajlanak,melyeknek alapját a gyógypedagógia, drámapedagógia, élménypedagógia adja.
+---
+
+### Csoportos: Mesés fejlesztő falmászás
+
+*Gyógypedagógiai fókuszú fejlesztő falmászás*
+
+A Mesés fejlesztő falmászás során a gyerekek történeteken és játékos kalandokon keresztül fedezik fel a mászófal világát. A foglalkozásokon a mozgás és a képzelet összekapcsolódik: a gyerekek mesebeli szereplőkké válnak, miközben különböző mozgásos feladatokat oldanak meg a falon és a térben. A gyógypedagógiai szemléletű alkalmak játékos, élményalapú formában támogatják a mozgáskoordináció, testtudat fejlődését, miközben a kognitív képességek, a kommunikáció és az együttműködés is erősödik. A mesék segítenek abban, hogy a gyerekek motiváltan, biztonságos és támogató környezetben tapasztalják meg a mozgás örömét és saját képességeik fejlődését.
+
+### Egyéni fejlesztő falmászás
+
+Az egyéni falmászó foglalkozások során a fejlesztés teljes mértékben az adott gyermek igényeihez igazodik. A mászófalat személyre szabott feladatokkal használjuk a fejlesztendő területek támogatására. Az alkalmakat gyógypedagógus vagy gyógytornász vezeti, attól függően, hogy a résztvevőnek milyen típusú támogatásra van szüksége.
+
 ---
 
 ### Díjak:
 
-A csoportos foglalkozások díja: **8 000 Ft / alkalom**.
+A csoportos foglalkozások díja: **10 000 Ft / alkalom**.
 
-Fizetés első hónapban alkalmanként lehtet utalni, vagy készpénzben. Utána a havi mászó órák díja **32.000 ft, mely 4 alkalmat foglal magában**.
-
-A 4 alkalom 5 hét alatt használható fel.
-
-Érvényes 2026.06.01-től
+Fizetés első hónapban alkalmanként lehtet utalni, vagy készpénzben. Utána a havi mászó órák díja **32.000 ft, mely 4 alkalmat foglal magában** ami 5 hét alatt használható fel.
 
 
 ### Órarend
@@ -99,3 +111,10 @@ Ez teljesen természetes, és első alkalommal gyakran előfordul. Senkit nem si
 {{< faq q="Mit érdemes elmondanunk a gyermekünkről?" >}}
 Ha van szakvélemény, nagyon hasznos, ha megosztjátok velünk, mert így jobban látjuk, mely területek kiemelten fontosak a fejlesztésben. Azt is szívesen halljuk, mit szeret igazán a gyermek (tárgyakat, témákat, mesehősöket), hogy biztosan tudjuk motiválni. Ha ételallergiája vagy étkezési érzékenysége van, kérjük, jelezzétek, mert az órákon néha kisebb nasival is készülünk.
 {{< /faq >}}
+
+
+---
+
+Tudj meg többet arról, hogy hogyan segíti a fejlesztő falmászás a gyermekek testi és szellemi fejlődését!
+
+<a href="/climbing" class="button">A mászás előnyei</a>

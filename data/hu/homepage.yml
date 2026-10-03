@@ -13,7 +13,7 @@ items:
       icon: fa-users
       content: >
         Egyéni és csoportos fejlesztő alkalmak, ahol a falmászás élményén keresztül támogatjuk a gyermekek fejlődését. A foglalkozásokat gyógypedagógusok és/vagy gyógytornászok vezetik.
-      url: "/fejleszto-maszas"
+      url: "/csoportos-maszo-orak"
     - title: Egyéni fejlesztések és terápiák
       icon: fa-child
       url: "/egyeni-terapiak"
