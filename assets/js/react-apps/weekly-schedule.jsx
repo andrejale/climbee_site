@@ -12,6 +12,7 @@ const LOCALES = {
     typeLabels: { group: 'Csoportos', individual: 'Egyéni' },
     emptyDay: '–',
     loading: 'Órarend betöltése…',
+    spots: n => `(${n} hely)`,
   },
   en: {
     days: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
@@ -19,12 +20,14 @@ const LOCALES = {
     typeLabels: { group: 'Group', individual: 'Individual' },
     emptyDay: '–',
     loading: 'Loading schedule…',
+    spots: n => `(${n} avail. spots)`,
   },
 };
 
 // Fallback schedule, shown only if the Google Sheet can't be loaded.
 // Indexed by day (0 = Mon … 4 = Fri), with per-language title & description.
 // Include a `url` string on items that should show a booking button; omit it to hide the button.
+// `availSpots` (group sessions only) is shown right-aligned next to the title; omit it to hide.
 const FALLBACK_SCHEDULE = [
   // Monday
   [
@@ -68,8 +71,8 @@ const FALLBACK_SCHEDULE = [
       url: '/idopontfoglalas',
     },
     {
-      id: 'sz3', time: '18:00–19:00', type: 'group',
-      title: { hu: 'Mesés fejlesztő falmászás (2 hely)', en: 'Story-based developmental climbing' },
+      id: 'sz3', time: '18:00–19:00', type: 'group', availSpots: 2,
+      title: { hu: 'Mesés fejlesztő falmászás', en: 'Story-based developmental climbing' },
       description: {
         hu: 'Csoportos foglalkozás 5–8 éves gyerekeknek. Mozgás és képzelet összekapcsolódik a falon.',
         en: 'Group session for children aged 5–8. Movement and imagination come together on the wall.',
@@ -80,16 +83,16 @@ const FALLBACK_SCHEDULE = [
   // Thursday
   [
     {
-      id: 'cs1', time: '17:00–18:00', type: 'group',
-      title: { hu: 'Mesés fejlesztő falmászás [HU] (még 1 hely)', en: 'Story-based developmental climbing' },
+      id: 'cs1', time: '17:00–18:00', type: 'group', availSpots: 1,
+      title: { hu: 'Mesés fejlesztő falmászás [HU]', en: 'Story-based developmental climbing' },
       description: {
         hu: 'Mesékbe foglalt fejlesztő óra 3–4,5 év közötti gyerekeknek, mászófal használatával erősen integrálva.',
         en: 'Story-based developmental session for children aged 3–4.5, with the climbing wall closely integrated.',
       },
     },
     {
-      id: 'cs2', time: '18:00–19:00', type: 'group',
-      title: { hu: 'Mesés fejlesztő falmászás [HU] (betelt)', en: 'Story-based developmental climbing' },
+      id: 'cs2', time: '18:00–19:00', type: 'group', availSpots: 0,
+      title: { hu: 'Mesés fejlesztő falmászás [HU]', en: 'Story-based developmental climbing' },
       description: {
         hu: 'Mesékbe foglalt fejlesztő óra 4,5–6 év közötti gyerekeknek, mászófal használatával erősen integrálva.',
         en: 'Story-based developmental session for children aged 4.5–6, with the climbing wall closely integrated.',
@@ -147,7 +150,7 @@ Object.values(LOCALES).forEach(l => l.days.forEach((d, i) => { DAY_INDEX[normali
 const INACTIVE_VALUES = ['0', 'false', 'no', 'nem'];
 
 // Expected columns (any order, header names case-insensitive):
-// day, time, type, title_hu, title_en, desc_hu, desc_en, booking_url, active
+// day, time, type, avail_spots, title_hu, title_en, desc_hu, desc_en, booking_url, active
 function rowsToSchedule(rows) {
   const [header, ...body] = rows;
   if (!header) return null;
@@ -165,6 +168,9 @@ function rowsToSchedule(rows) {
     const titleHu = get(r, 'title_hu'), titleEn = get(r, 'title_en');
     const descHu = get(r, 'desc_hu'), descEn = get(r, 'desc_en');
     const url = get(r, 'booking_url');
+    // Only group sessions show available spots, and only when the cell holds a whole number.
+    const spots = get(r, 'avail_spots');
+    const availSpots = type === 'group' && /^\d+$/.test(spots) ? Number(spots) : undefined;
     schedule[day].push({
       id: `row-${n}`,
       time: get(r, 'time'),
@@ -173,6 +179,7 @@ function rowsToSchedule(rows) {
       title: { hu: titleHu || titleEn, en: titleEn || titleHu },
       description: { hu: descHu || descEn, en: descEn || descHu },
       ...(url && { url }),
+      ...(availSpots !== undefined && { availSpots }),
     });
   });
   // Sort each day by start time; ties keep sheet order.
@@ -236,8 +243,22 @@ function EventCard({ event, lang, strings }) {
         <div style={{ fontSize: '11px', color: '#999', marginBottom: '3px', fontVariantNumeric: 'tabular-nums' }}>
           {event.time}
         </div>
-        <div style={{ fontSize: '13px', fontWeight: '600', color: '#2a2a2a', lineHeight: '1.3' }}>
-          {event.title[lang]}
+        <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'baseline', columnGap: '10px' }}>
+          <span style={{ fontSize: '13px', fontWeight: '600', color: '#2a2a2a', lineHeight: '1.3' }}>
+            {event.title[lang]}
+          </span>
+          {event.availSpots !== undefined && (
+            <span style={{
+              marginLeft: 'auto',
+              fontSize: '11px',
+              fontWeight: '600',
+              color: s.accent,
+              whiteSpace: 'nowrap',
+              fontVariantNumeric: 'tabular-nums',
+            }}>
+              {strings.spots(event.availSpots)}
+            </span>
+          )}
         </div>
         <div style={{ marginTop: '4px' }}>
           <span style={{
